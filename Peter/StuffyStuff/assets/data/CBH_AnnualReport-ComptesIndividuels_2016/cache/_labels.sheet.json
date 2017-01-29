@@ -1,0 +1,55 @@
+{
+  "id": "33",
+  "name": "_labels",
+  "maxRow": 1,
+  "maxCol": 2,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "1",
+            "t": "s",
+            "v": "1",
+            "col": "A"
+          },
+          "style": {
+            "id": 1,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "This year"
+        },
+        {
+          "inputCell": {
+            "r": "B1",
+            "s": "2",
+            "v": "2016",
+            "col": "B"
+          },
+          "style": {
+            "id": 2,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "",
+          "value": "2016"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

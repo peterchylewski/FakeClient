@@ -1,0 +1,702 @@
+{
+  "id": "11",
+  "name": "I_iBilan_ImmoblstnFinancier-rep",
+  "maxRow": 6,
+  "maxCol": 11,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "61",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations se rapportant au bilan"
+        },
+        {
+          "inputCell": {
+            "r": "B1",
+            "s": "18",
+            "col": "B"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C1",
+            "s": "18",
+            "col": "C"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "D1",
+            "s": "18",
+            "col": "D"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "E1",
+            "s": "18",
+            "col": "E"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "G",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "80",
+            "t": "s",
+            "v": "150",
+            "col": "A"
+          },
+          "style": {
+            "id": 80,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Répartition des contreparties selon la notation"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "G",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "K2",
+            "s": "8",
+            "t": "s",
+            "v": "132",
+            "col": "K"
+          },
+          "style": {
+            "id": 8,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "K",
+          "type": "string",
+          "value": "Nouvelle ligne"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "81",
+            "t": "s",
+            "v": "151",
+            "col": "B"
+          },
+          "style": {
+            "id": 81,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "AAA à AA-"
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "81",
+            "t": "s",
+            "v": "152",
+            "col": "C"
+          },
+          "style": {
+            "id": 81,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "string",
+          "value": "A+ à A-"
+        },
+        {
+          "inputCell": {
+            "r": "D3",
+            "s": "81",
+            "t": "s",
+            "v": "153",
+            "col": "D"
+          },
+          "style": {
+            "id": 81,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "D",
+          "type": "string",
+          "value": "BBB+ à BBB-"
+        },
+        {
+          "inputCell": {
+            "r": "E3",
+            "s": "81",
+            "t": "s",
+            "v": "154",
+            "col": "E"
+          },
+          "style": {
+            "id": 81,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "E",
+          "type": "string",
+          "value": "BB+ à B-"
+        },
+        {
+          "inputCell": {
+            "r": "F3",
+            "s": "81",
+            "t": "s",
+            "v": "155",
+            "col": "F"
+          },
+          "style": {
+            "id": 81,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "F",
+          "type": "string",
+          "value": "< à B-"
+        },
+        {
+          "inputCell": {
+            "r": "G3",
+            "s": "81",
+            "t": "s",
+            "v": "156",
+            "col": "G"
+          },
+          "style": {
+            "id": 81,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "G",
+          "type": "string",
+          "value": "sans notation"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "9",
+            "t": "s",
+            "v": "363",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Titres de créance, valeur comptable"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "25",
+            "v": "352175",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "352175"
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "25",
+            "v": "121891",
+            "col": "C"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "121891"
+        },
+        {
+          "inputCell": {
+            "r": "D4",
+            "s": "25",
+            "v": "88748",
+            "col": "D"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "value": "88748"
+        },
+        {
+          "inputCell": {
+            "r": "E4",
+            "s": "25",
+            "v": "21742",
+            "col": "E"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "21742"
+        },
+        {
+          "inputCell": {
+            "r": "F4",
+            "s": "25",
+            "v": "44540",
+            "col": "F"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "F",
+          "type": "number",
+          "value": "44540"
+        },
+        {
+          "inputCell": {
+            "r": "G4",
+            "s": "25",
+            "f": "198",
+            "v": "198",
+            "col": "G"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "formula": "198",
+          "value": "198"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "J4",
+            "s": "33",
+            "f": "SUM(B4:G4)-I_iBilan_ImmoblstnFinanciers!B6",
+            "v": "0",
+            "col": "J"
+          },
+          "style": {
+            "id": 33,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "J",
+          "type": "number",
+          "formula": "SUM(B4:G4)-I_iBilan_ImmoblstnFinanciers!B6",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "11",
+            "t": "s",
+            "v": "370",
+            "col": "A"
+          },
+          "style": {
+            "id": 11,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Les notations présentées ci-dessus sont celles de l'agence Fitch. A défaut, la Banque recourt aux notations de l'agence S&P."
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "G",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

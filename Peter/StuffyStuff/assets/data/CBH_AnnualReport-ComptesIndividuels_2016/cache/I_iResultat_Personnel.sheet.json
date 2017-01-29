@@ -1,0 +1,501 @@
+{
+  "id": "25",
+  "name": "I_iResultat_Personnel",
+  "maxRow": 9,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "106",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations se rapportant au compte de résultat"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C1",
+            "s": "17",
+            "col": "C"
+          },
+          "style": {
+            "id": 17,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "20",
+            "t": "s",
+            "v": "42",
+            "col": "A"
+          },
+          "style": {
+            "id": 20,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Charges de personnel"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C2",
+            "s": "17",
+            "col": "C"
+          },
+          "style": {
+            "id": 17,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "18",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1",
+            "v": "31.12.2016",
+            "col": "B"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "formula": "\"31.12.\"&_labels!$B$1",
+          "value": "31.12.2016"
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "24",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1-1",
+            "v": "31.12.2015",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "\"31.12.\"&_labels!$B$1-1",
+          "value": "31.12.2015"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "12",
+            "t": "s",
+            "v": "231",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Appointements"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "25",
+            "f": "ROUND((20611074+210000)/1000,0)",
+            "v": "20821",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "ROUND((20611074+210000)/1000,0)",
+          "value": "20821"
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "26",
+            "f": "ROUND(16474256/1000,0)",
+            "v": "16474",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "ROUND(16474256/1000,0)",
+          "value": "16474"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "64",
+            "t": "s",
+            "v": "368",
+            "col": "A"
+          },
+          "style": {
+            "id": 64,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "368"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "130",
+            "v": "0",
+            "col": "B"
+          },
+          "style": {
+            "id": 130,
+            "type": "number",
+            "formatCode": "_-* #,##0\\ _f_r_._-;\\-* #,##0\\ _f_r_._-;_-* \"-\"\\ _f_r_._-;_-@_-"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "131",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 131,
+            "type": "number",
+            "formatCode": "_-* #,##0\\ _f_r_._-;\\-* #,##0\\ _f_r_._-;_-* \"-\"\\ _f_r_._-;_-@_-"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "12",
+            "t": "s",
+            "v": "103",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Prestations sociales"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "25",
+            "f": "ROUND((1692426+1864217)/1000,0)",
+            "v": "3557",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "ROUND((1692426+1864217)/1000,0)",
+          "value": "3557"
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "26",
+            "f": "ROUND((1470241+1439404)/1000,0)",
+            "v": "2910",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "ROUND((1470241+1439404)/1000,0)",
+          "value": "2910"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "64",
+            "t": "s",
+            "v": "278",
+            "col": "A"
+          },
+          "style": {
+            "id": 64,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Adaptations de valeur relatives aux avantages et engagements économiques découlant des institutions de prévoyance"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "25",
+            "v": "0",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "26",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A8",
+            "s": "12",
+            "t": "s",
+            "v": "104",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Autres charges de personnel"
+        },
+        {
+          "inputCell": {
+            "r": "B8",
+            "s": "25",
+            "f": "ROUND((63155+12451+110099+1)/1000,0)",
+            "v": "186",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "ROUND((63155+12451+110099+1)/1000,0)",
+          "value": "186"
+        },
+        {
+          "inputCell": {
+            "r": "C8",
+            "s": "26",
+            "f": "ROUND(512403/1000,0)",
+            "v": "512",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "ROUND(512403/1000,0)",
+          "value": "512"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A9",
+            "s": "9",
+            "t": "s",
+            "v": "21",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total"
+        },
+        {
+          "inputCell": {
+            "r": "B9",
+            "s": "27",
+            "f": "SUM(B4:B8)",
+            "v": "24564",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "SUM(B4:B8)",
+          "value": "24564"
+        },
+        {
+          "inputCell": {
+            "r": "C9",
+            "s": "28",
+            "f": "SUM(C4:C8)",
+            "v": "19896",
+            "col": "C"
+          },
+          "style": {
+            "id": 28,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "SUM(C4:C8)",
+          "value": "19896"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "id": "38",
+  "name": "C_iResultat_FondsPropres",
+  "maxRow": 19,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "48",
+            "t": "s",
+            "v": "498",
+            "col": "A"
+          },
+          "style": {
+            "id": 48,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations relatives aux exigences de fonds propres"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "19",
+            "t": "s",
+            "v": "166",
+            "col": "A"
+          },
+          "style": {
+            "id": 19,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Présentation des fonds propres pouvant être pris en compte"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "17",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1",
+            "v": "31.12.2016",
+            "col": "C"
+          },
+          "style": {
+            "id": 17,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "string",
+          "formula": "\"31.12.\"&_labels!$B$1",
+          "value": "31.12.2016"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "9",
+            "t": "s",
+            "v": "147",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Calcul des fonds propres"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "29",
+            "col": "C"
+          },
+          "style": {
+            "id": 29,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "12",
+            "t": "s",
+            "v": "148",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "CET1 - fonds propres de base durs"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "24",
+            "v": "153607",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "153607"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "12",
+            "t": "s",
+            "v": "149",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "AT1 - fonds propres de base additionnels"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "24",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "12",
+            "t": "s",
+            "v": "150",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "T2 - fonds propres complémentaires"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "24",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A8",
+            "s": "9",
+            "t": "s",
+            "v": "151",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total des fonds propres pris en compte"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C8",
+            "s": "26",
+            "f": "SUM(C5:C7)",
+            "v": "153607",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "SUM(C5:C7)",
+          "value": "153607"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A9",
+            "s": "9",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C9",
+            "s": "26",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A10",
+            "s": "19",
+            "t": "s",
+            "v": "152",
+            "col": "A"
+          },
+          "style": {
+            "id": 19,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Presentation des fonds propres requis (non audité)"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B11",
+            "s": "16",
+            "t": "s",
+            "v": "153",
+            "col": "B"
+          },
+          "style": {
+            "id": 16,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "Approche utilisée"
+        },
+        {
+          "inputCell": {
+            "r": "C11",
+            "s": "16",
+            "t": "s",
+            "v": "154",
+            "col": "C"
+          },
+          "style": {
+            "id": 16,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "string",
+          "value": "Exigences de fonds propres"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A12",
+            "s": "12",
+            "t": "s",
+            "v": "155",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Risques de crédit"
+        },
+        {
+          "inputCell": {
+            "r": "B12",
+            "s": "44",
+            "t": "s",
+            "v": "165",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "Standard international"
+        },
+        {
+          "inputCell": {
+            "r": "C12",
+            "s": "24",
+            "f": "39242",
+            "v": "39242",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "39242",
+          "value": "39242"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A13",
+            "s": "12",
+            "t": "s",
+            "v": "156",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Risques non liés à des contreparties"
+        },
+        {
+          "inputCell": {
+            "r": "B13",
+            "s": "44",
+            "t": "s",
+            "v": "157",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "Standard"
+        },
+        {
+          "inputCell": {
+            "r": "C13",
+            "s": "24",
+            "v": "751",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "751"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A14",
+            "s": "12",
+            "t": "s",
+            "v": "158",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Risques de marché"
+        },
+        {
+          "inputCell": {
+            "r": "B14",
+            "s": "44",
+            "t": "s",
+            "v": "157",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "Standard"
+        },
+        {
+          "inputCell": {
+            "r": "C14",
+            "s": "24",
+            "v": "463",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "463"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A15",
+            "s": "20",
+            "t": "s",
+            "v": "159",
+            "col": "A"
+          },
+          "style": {
+            "id": 20,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "dont sur devises"
+        },
+        {
+          "inputCell": {
+            "r": "B15",
+            "s": "44",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C15",
+            "s": "24",
+            "v": "111",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "111"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A16",
+            "s": "20",
+            "t": "s",
+            "v": "160",
+            "col": "A"
+          },
+          "style": {
+            "id": 20,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "dont sur matières premières (métaux précieux)"
+        },
+        {
+          "inputCell": {
+            "r": "B16",
+            "s": "44",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C16",
+            "s": "24",
+            "v": "352",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "352"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A17",
+            "s": "12",
+            "t": "s",
+            "v": "161",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Risques opérationnels"
+        },
+        {
+          "inputCell": {
+            "r": "B17",
+            "s": "44",
+            "t": "s",
+            "v": "162",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "Indicateur de base"
+        },
+        {
+          "inputCell": {
+            "r": "C17",
+            "s": "24",
+            "v": "9589",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "9589"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A18",
+            "s": "12",
+            "t": "s",
+            "v": "525",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Risques de cours relatifs aux titres de participation dans le portefeuille du Groupe"
+        },
+        {
+          "inputCell": {
+            "r": "B18",
+            "s": "44",
+            "t": "s",
+            "v": "163",
+            "col": "B"
+          },
+          "style": {
+            "id": 44,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "value": "–"
+        },
+        {
+          "inputCell": {
+            "r": "C18",
+            "s": "24",
+            "v": "284",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "284"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A19",
+            "s": "9",
+            "t": "s",
+            "v": "29",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total"
+        },
+        {
+          "inputCell": {
+            "r": "B19",
+            "s": "45",
+            "col": "B"
+          },
+          "style": {
+            "id": 45,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C19",
+            "s": "26",
+            "f": "+C12+C13+C14+C17+C18",
+            "v": "50329",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "+C12+C13+C14+C17+C18",
+          "value": "50329"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:29:50Z",
+    "lastPrinted": "2016-04-13T07:54:41Z"
+  }
+}

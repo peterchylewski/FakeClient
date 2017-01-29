@@ -1,0 +1,1091 @@
+{
+  "id": "21",
+  "name": "I_iHorsBilan_AvoirsClient",
+  "maxRow": 23,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "91",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations se rapportant aux operations hors bilan"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C1",
+            "s": "17",
+            "col": "C"
+          },
+          "style": {
+            "id": 17,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "20",
+            "t": "s",
+            "v": "283",
+            "col": "A"
+          },
+          "style": {
+            "id": 20,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Avoirs administrés"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C2",
+            "s": "17",
+            "col": "C"
+          },
+          "style": {
+            "id": 17,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A3",
+            "s": "178",
+            "t": "s",
+            "v": "284",
+            "col": "A"
+          },
+          "style": {
+            "id": 178,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Genre d'avoirs administrés"
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "18",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1",
+            "v": "31.12.2016",
+            "col": "B"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "formula": "\"31.12.\"&_labels!$B$1",
+          "value": "31.12.2016"
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "24",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1-1",
+            "v": "31.12.2015",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "\"31.12.\"&_labels!$B$1-1",
+          "value": "31.12.2015"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "55",
+            "t": "s",
+            "v": "307",
+            "col": "A"
+          },
+          "style": {
+            "id": 55,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Avoirs détenus par des instruments de placement collectifs sous gestion propre (banque)"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "25",
+            "v": "218200",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "218200"
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "26",
+            "v": "225999",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "225999"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "12",
+            "t": "s",
+            "v": "100",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Avoirs sous mandat de gestion"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "25",
+            "v": "641303",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "641303"
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "26",
+            "v": "375017",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "375017"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "55",
+            "t": "s",
+            "v": "220",
+            "col": "A"
+          },
+          "style": {
+            "id": 55,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Autres avoirs administrés"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "25",
+            "f": "5040971-641303",
+            "v": "4399668",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "5040971-641303",
+          "value": "4399668"
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "26",
+            "v": "4624517",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "4624517"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "9",
+            "t": "s",
+            "v": "222",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total des avoirs administrés (y compris prises en compte doubles)"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "27",
+            "f": "SUM(B4:B6)",
+            "v": "5259171",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "SUM(B4:B6)",
+          "value": "5259171"
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "28",
+            "v": "5225533",
+            "col": "C"
+          },
+          "style": {
+            "id": 28,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "5225533"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A8",
+            "s": "67",
+            "t": "s",
+            "v": "221",
+            "col": "A"
+          },
+          "style": {
+            "id": 67,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Dont prises en compte doubles"
+        },
+        {
+          "inputCell": {
+            "r": "B8",
+            "s": "25",
+            "v": "169404",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "169404"
+        },
+        {
+          "inputCell": {
+            "r": "C8",
+            "s": "26",
+            "v": "150039",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "150039"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A9",
+            "s": "67",
+            "col": "A"
+          },
+          "style": {
+            "id": 67,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B9",
+            "s": "25",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C9",
+            "s": "26",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A10",
+            "s": "79",
+            "col": "A"
+          },
+          "style": {
+            "id": 79,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B10",
+            "s": "18",
+            "col": "B"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C10",
+            "s": "24",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A11",
+            "s": "229",
+            "t": "s",
+            "v": "302",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Les avoirs administrés comprennent tous les avoirs de la clientèle ayant caractère de placement en dépôt auprès de la Banque ainsi que les avoirs de la clientèle déposés auprès de banques tierces mais administrés par la Banque. Ne sont pas compris les avoirs en dépôt auprès de la Banque, qui sont administrés par des tiers (avoirs en simple dépôt). Sont traités comme simples dépôts les avoirs de banques de même que ceux des directions de fonds pour lesquels la Banque fait exclusivement fonction de banques dépositaires."
+        },
+        {
+          "inputCell": {
+            "r": "B11",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C11",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B12",
+            "s": "142",
+            "col": "B"
+          },
+          "style": {
+            "id": 142,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C12",
+            "s": "142",
+            "col": "C"
+          },
+          "style": {
+            "id": 142,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A13",
+            "s": "229",
+            "t": "s",
+            "v": "303",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Les avoirs sous mandat de gestion comprennent les avoirs de la clientèle pour lesquels les décisions de placement sont prises par la Banque. Les autres avoirs administrés sont ceux pour lesquels les décisions de placement sont prises par le client."
+        },
+        {
+          "inputCell": {
+            "r": "B13",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C13",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A14",
+            "s": "129",
+            "col": "A"
+          },
+          "style": {
+            "id": 129,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B14",
+            "s": "25",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C14",
+            "s": "26",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A15",
+            "s": "80",
+            "col": "A"
+          },
+          "style": {
+            "id": 80,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B15",
+            "s": "27",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C15",
+            "s": "28",
+            "col": "C"
+          },
+          "style": {
+            "id": 28,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A17",
+            "s": "229",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B17",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C17",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A19",
+            "s": "229",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B19",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C19",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A20",
+            "s": "173",
+            "col": "A"
+          },
+          "style": {
+            "id": 173,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B20",
+            "s": "174",
+            "col": "B"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C20",
+            "s": "174",
+            "col": "C"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A21",
+            "s": "229",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B21",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C21",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A22",
+            "s": "173",
+            "col": "A"
+          },
+          "style": {
+            "id": 173,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B22",
+            "s": "174",
+            "col": "B"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C22",
+            "s": "174",
+            "col": "C"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A23",
+            "s": "229",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B23",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C23",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

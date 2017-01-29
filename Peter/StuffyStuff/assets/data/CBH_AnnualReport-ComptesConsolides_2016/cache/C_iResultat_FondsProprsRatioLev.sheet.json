@@ -1,0 +1,236 @@
+{
+  "id": "41",
+  "name": "C_iResultat_FondsProprsRatioLev",
+  "maxRow": 6,
+  "maxCol": 2,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "48",
+            "t": "s",
+            "v": "500",
+            "col": "A"
+          },
+          "style": {
+            "id": 48,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations relatives aux ratios de fonds propres, ratio de liquidité à court terme (LCR) et au ratio de levier"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "19",
+            "t": "s",
+            "v": "492",
+            "col": "A"
+          },
+          "style": {
+            "id": 19,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio de levier"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "227",
+            "t": "s",
+            "v": "401",
+            "col": "B"
+          },
+          "style": {
+            "id": 227,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "31.12.2015"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "12",
+            "t": "s",
+            "v": "148",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "CET1 - fonds propres de base durs"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "24",
+            "v": "153607",
+            "col": "B"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "153607"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "224",
+            "t": "s",
+            "v": "493",
+            "col": "A"
+          },
+          "style": {
+            "id": 224,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Engagement total"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "24",
+            "v": "2436686",
+            "col": "B"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "2436686"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "149",
+            "t": "s",
+            "v": "492",
+            "col": "A"
+          },
+          "style": {
+            "id": 149,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio de levier"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "147",
+            "f": {
+              "_text": "+B4/B5",
+              "t": "shared",
+              "ref": "B6",
+              "si": "0"
+            },
+            "v": "6.3039308306445718E-2",
+            "col": "B"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": {
+            "_text": "+B4/B5",
+            "t": "shared",
+            "ref": "B6",
+            "si": "0"
+          },
+          "value": "6.3039308306445718E-2"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:29:50Z",
+    "lastPrinted": "2016-04-13T07:54:41Z"
+  }
+}

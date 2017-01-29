@@ -1,0 +1,269 @@
+{
+  "id": "27",
+  "name": "I_iResultat_Extraordinaires",
+  "maxRow": 7,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "106",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations se rapportant au compte de résultat"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C1",
+            "s": "115",
+            "col": "C"
+          },
+          "style": {
+            "id": 115,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "116",
+            "col": "A"
+          },
+          "style": {
+            "id": 116,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B2",
+            "s": "117",
+            "col": "B"
+          },
+          "style": {
+            "id": 117,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C2",
+            "s": "110",
+            "col": "C"
+          },
+          "style": {
+            "id": 110,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A3",
+            "s": "232",
+            "t": "s",
+            "v": "236",
+            "col": "A"
+          },
+          "style": {
+            "id": 232,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Commentaires des pertes significatives ainsi que des produits et charges extraordinaires de même que des dissolutions significatives de réserves latentes, de réserves pour risques bancaires généraux et de correctifs de valeurs et provisions devenus libres"
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "233",
+            "col": "B"
+          },
+          "style": {
+            "id": 233,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "233",
+            "col": "C"
+          },
+          "style": {
+            "id": 233,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "229",
+            "t": "s",
+            "v": "276",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Au cours de l'exercice sous revue, la Banque n'a enregistré aucunes pertes ni produits extraordinaires significatives. De même qu'aucune dissolution de réserves latentes, de réserves pour risques bancaires généraux et provisions devenus libres n'a été enregistrée."
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "229",
+            "t": "s",
+            "v": "277",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Durant l'année 2015, la Banque a enregistré un Goodwill en relation avec l'acquisition de la clientèle BPES d'un montant de CHF 1,35 mios. Ce dernier a été entièrement amorti au cours de l'exercice sous le poste \"Correctifs de valeurs sur participations, amortissements sur immobilisations et valeurs immatérielles\"."
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

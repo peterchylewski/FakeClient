@@ -1,0 +1,722 @@
+{
+  "id": "39",
+  "name": "C_iResultat_FondsPropresReqis",
+  "maxRow": 14,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "48",
+            "t": "s",
+            "v": "500",
+            "col": "A"
+          },
+          "style": {
+            "id": 48,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations relatives aux ratios de fonds propres, ratio de liquidité à court terme (LCR) et au ratio de levier"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "19",
+            "t": "s",
+            "v": "499",
+            "col": "A"
+          },
+          "style": {
+            "id": 19,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratios de fonds propres"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "16",
+            "col": "B"
+          },
+          "style": {
+            "id": 16,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "229",
+            "t": "s",
+            "v": "401",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "31.12.2015"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "12",
+            "t": "s",
+            "v": "480",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio CET1 - fonds propres de base durs"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "45",
+            "col": "B"
+          },
+          "style": {
+            "id": 45,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "147",
+            "v": "0.24416459695205547",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.24416459695205547"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "12",
+            "t": "s",
+            "v": "481",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio TIER1 - fonds propres (CET1 + AT1)"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "45",
+            "col": "B"
+          },
+          "style": {
+            "id": 45,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "147",
+            "v": "0.24416459695205547",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.24416459695205547"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "12",
+            "t": "s",
+            "v": "482",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio relatif aux fonds propres réglementaires totaux"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "45",
+            "col": "B"
+          },
+          "style": {
+            "id": 45,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "147",
+            "f": "+[4]C_iResultat_FondsPropres!B7/[4]C_iResultat_FondsPropresReqis!C10*8/100",
+            "v": "0.24416459695205547",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "+[4]C_iResultat_FondsPropres!B7/[4]C_iResultat_FondsPropresReqis!C10*8/100",
+          "value": "0.24416459695205547"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "12",
+            "t": "s",
+            "v": "484",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Exigences en CET1 selon les dispositions transitoires de l’OFR"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "225",
+            "col": "B"
+          },
+          "style": {
+            "id": 225,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "147",
+            "v": "4.4999999999999998E-2",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "4.4999999999999998E-2"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A8",
+            "s": "220",
+            "t": "s",
+            "v": "485",
+            "col": "A"
+          },
+          "style": {
+            "id": 220,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "CET1 disponible afin de couvrir les exigences minimales et les exigences en volants, après déduction des exigences en AT1 et T2 qui sont couvertes par du CET1"
+        },
+        {
+          "inputCell": {
+            "r": "B8",
+            "s": "225",
+            "col": "B"
+          },
+          "style": {
+            "id": 225,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C8",
+            "s": "147",
+            "v": "0.17019999999999999",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.17019999999999999"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A9",
+            "s": "220",
+            "t": "s",
+            "v": "486",
+            "col": "A"
+          },
+          "style": {
+            "id": 220,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Objectif du CET 1 selon Circ.-FINMA 11/2 majoré du volant anticyclique"
+        },
+        {
+          "inputCell": {
+            "r": "B9",
+            "s": "225",
+            "col": "B"
+          },
+          "style": {
+            "id": 225,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C9",
+            "s": "147",
+            "v": "7.3999999999999996E-2",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "7.3999999999999996E-2"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A10",
+            "s": "220",
+            "t": "s",
+            "v": "487",
+            "col": "A"
+          },
+          "style": {
+            "id": 220,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "CET1 disponible"
+        },
+        {
+          "inputCell": {
+            "r": "B10",
+            "s": "225",
+            "col": "B"
+          },
+          "style": {
+            "id": 225,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C10",
+            "s": "147",
+            "v": "0.17019999999999999",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.17019999999999999"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A11",
+            "s": "220",
+            "t": "s",
+            "v": "488",
+            "col": "A"
+          },
+          "style": {
+            "id": 220,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Objectif de fonds propres T1 selon Circ.-FINMA 11/2 majoré du volant anticyclique"
+        },
+        {
+          "inputCell": {
+            "r": "B11",
+            "s": "225",
+            "col": "B"
+          },
+          "style": {
+            "id": 225,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C11",
+            "s": "147",
+            "v": "0.09",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.09"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A12",
+            "s": "12",
+            "t": "s",
+            "v": "489",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "T1 disponible"
+        },
+        {
+          "inputCell": {
+            "r": "B12",
+            "s": "225",
+            "col": "B"
+          },
+          "style": {
+            "id": 225,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C12",
+            "s": "147",
+            "v": "0.1542",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.1542"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A13",
+            "s": "220",
+            "t": "s",
+            "v": "490",
+            "col": "A"
+          },
+          "style": {
+            "id": 220,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Objectif de fonds propres réglementaires selon Circ.-FINMA 11/2 majoré du volant anticyclique"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C13",
+            "s": "147",
+            "v": "0.112",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.112"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A14",
+            "s": "220",
+            "t": "s",
+            "v": "491",
+            "col": "A"
+          },
+          "style": {
+            "id": 220,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Fonds propres réglementaires disponibles"
+        },
+        {
+          "inputCell": {
+            "r": "B14",
+            "s": "88",
+            "col": "B"
+          },
+          "style": {
+            "id": 88,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C14",
+            "s": "147",
+            "v": "0.13220000000000001",
+            "col": "C"
+          },
+          "style": {
+            "id": 147,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0.13220000000000001"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:29:50Z",
+    "lastPrinted": "2016-04-13T07:54:41Z"
+  }
+}

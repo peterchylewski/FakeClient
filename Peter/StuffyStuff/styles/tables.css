@@ -1,0 +1,847 @@
+/*	-	-	-	-	-	-	-	-	-	*
+/*	Tables - General setup and foundation	*/
+
+
+table + table {	margin-top: 2em; }
+
+table:last-of-type,
+.financialTable:last-of-type { margin-bottom: 0; }
+
+
+
+table td *,
+table td span { margin: 0; padding: 0; display: inline; font-size: inherit; line-height: inherit; }
+
+
+
+
+/*table p br,
+table * br { display: block; font-size: 0; line-height: 0; padding: 0; margin:0; } *
+/* this makes line breaks display again. somehow, inlining the <p>'a made the <br>'s not apply. */
+/* argh this is not working, br tags add line space, fuck. */
+
+
+
+
+
+/* General starting width - a basic useable default */
+table { width: 100%; max-width: 100%; } /* this may interfere with some edge cases such as table in floated elements ...*/
+table tr td:not(:first-of-type) {
+	width: 26mm;
+}
+
+
+/* -- financials only? */
+/*	#Financials table td.titleCol,
+	#Financials table td:first-of-type {
+		    width: 126mm;
+		min-width: 126mm;
+		max-width: 126mm;
+	}
+	#Financials table td:not(.titleCol),
+	#Financials table td:not(:first-of-type) {
+		    width: 26mm;
+		min-width: 26mm;
+		max-width: 26mm;
+	}
+*/
+
+
+/*
+	based on 
+	http://andr3.net/blog/post/142
+	http://lea.verou.me/2011/01/styling-children-based-on-their-number-with-css3/
+*/
+/* three columns – Specific */
+/*	table tr td:nth-child(1):nth-last-child(3) { width: 126mm; }
+	table tr td:nth-child(2):nth-last-child(2) { width: 26mm; }
+	table tr td:nth-child(3):nth-last-child(1) { width: 26mm; }
+*/
+/* five columns – Specific */
+/*	table tr td:nth-child(1):nth-last-child(5) { width: 98mm; }
+	table tr td:nth-child(2):nth-last-child(4) { width: 20mm; }
+	table tr td:nth-child(3):nth-last-child(3) { width: 20mm; }
+	table tr td:nth-child(4):nth-last-child(2) { width: 20mm; }
+	table tr td:nth-child(5):nth-last-child(1) { width: 20mm; }
+*/
+
+
+
+
+/* cell geometry */
+table {
+	cellspacing:0;
+	border-collapse: collapse;
+	page-break-inside: avoid;
+}
+
+table *,
+table tr, 
+table tr *, 
+table td, 
+table td * {
+	vertical-align: bottom;
+}
+
+
+tr, th, td {
+	height: 8mm;
+	min-height: 8mm;
+}
+
+td {
+	height: 8mm;
+	min-height: 8mm;
+	padding-bottom: 1.7pt;
+	padding-top: 1.7pt;
+}
+
+
+
+table td: { text-align: right; }
+
+table td.titleCol, table td:data-coltype(titleCol) { text-align: left; }
+
+
+
+table td:not(:last-of-type) { padding-right: 5pt; }
+
+
+
+
+/* Fonts */
+table * { 
+	font-size: 8.5pt;
+	line-height: 9pt;
+}
+
+
+
+
+/* Borders */
+table td {
+	border-bottom: 0.25pt solid prince-color(gris);
+}
+
+
+
+
+
+
+
+
+
+
+/*	-	-	-	-	-	-	-	-	-	*
+/* Table class styles */
+
+/* .plainText */
+td span.plainText {
+	display: inline;
+	margin: 0; padding: 0;
+	min-height: 0;
+	line-height: inherit;
+}
+
+
+
+/* .alignLeft */
+td.alignLeft,
+td.alignLeft * { 
+	text-align: left !important;
+}
+
+/* .alignRight */
+td.alignRight,
+td.alignRight * { 
+	text-align: right !important;
+}
+
+
+
+
+/* .titleCol */
+td.titleCol,
+th.titleCol {
+	text-align: left;
+}
+
+td:not(.titleCol),
+th:not(.titleCol),
+td:not(.titleCol) *,
+th:not(.titleCol) *{
+	text-align: right;
+}
+
+
+
+/* if we set the spacing of .titleCol to something, we have to manually reset all of the bold items in the .titleCols back to 0, even if specified elsewhere. because it’s !important. */
+/* maybe there's an @ selector that could do this? @font-face bold {letter-spacing 0;} ? */
+table td.titleCol * { letter-spacing: 0.03em; }
+
+table td:not(.titleCol) * { letter-spacing: 0; }
+
+table tr.titleH2.titleCol *,
+table td.titleH2.titleCol *,
+table tr.titleH3.titleCol *,
+table td[data-type="titleH3"].titleCol *,
+table tr[data-type="titleH2"].titleCol *,
+table td[data-type="titleH2"].titleCol *,
+table tr[data-type="titleH3"].titleCol *,
+table td[data-type="titleH3"].titleCol * { 
+	letter-spacing: 0;
+}
+
+table tr.Total .titleCol * ,
+table tr[data-type="total"] .titleCol * { letter-spacing: 0; }
+
+
+
+/* H3 and H2 */
+tr.titleH2,
+td.titleH2,
+tr.titleH3 *,
+td.titleH3 *,
+tr[data-type="titleH2"],
+td[data-type="titleH2"],
+tr[data-type="titleH3"] *,
+td[data-type="titleH3"] * {
+	font-weight: bold;
+	letter-spacing: 0; 
+}
+
+
+
+
+
+/* .H2 */
+table tr.H2 td,
+table tr td.H2 {
+	font-size: 10pt;
+	line-height: 12pt;
+}
+
+
+
+
+/* .H3 */
+table tr.H3 td {
+	height: 13mm;
+	min-height: 13mm;
+	max-height: 13mm;
+}
+
+table tr.H3 td{
+	border-bottom: 1.25pt solid prince-color(gris, 0.40);
+}
+
+
+
+
+/* .tall */
+
+table tr.tall {
+	height: 13mm;
+	min-height: 13mm;
+	max-height: 13mm;
+}
+
+
+/* .short */
+
+table tr.short,
+table tr.short td {
+	    height: 4mm !important; /* working on this… */
+	min-height: 4mm !important;
+	max-height: 4mm !important;
+}
+
+
+
+/* Header */
+.Header, .Header *,
+tr[data-type="header"],
+tr[data-type="header"] * {
+	font-weight: normal !important;
+	font-size: 7pt; line-height: 7pt;
+	color: prince-color(gris);
+	margin: 0; padding: 0;
+	vertical-align: top;
+	padding-top: 2pt;
+}
+
+.Header td:first-child,
+.Header td:first-child *,
+.Header th:first-child,
+.Header th:first-child *,
+tr[data-type="header"] td:first-child,
+tr[data-type="header"] td:first-child *,
+tr[data-type="header"] th:first-child,
+tr[data-type="header"] th:first-child *  {
+	text-align: left;
+}
+
+.Header td:not(:first-child),
+.Header td:not(:first-child) *,
+tr[data-type="header"] td:not(:first-child),
+tr[data-type="header"] td:not(:first-child) * {
+	text-align: right;
+	white-space: normal;
+}
+
+
+tr[data-type="header"] td.titleH2,
+tr[data-type="header"] td.titleH2 *{
+	font-weight: bold !important;
+	letter-spacing: 0 !important; 
+	font-size: 10pt !important;
+	line-height: 12pt !important;
+	vertical-align: bottom !important;
+}
+
+tr[data-type="header"] td.titleH3,
+tr[data-type="header"] td.titleH3 *{
+	font-weight: bold !important;
+	letter-spacing: 0 !important; 
+	font-size: 8.5pt !important;
+	line-height: 9pt !important;
+	vertical-align: bottom !important;
+}
+
+
+
+/* Total */
+table tr.Total,
+table tr[data-type="total"] { font-weight: bold; letter-spacing: 0; }
+
+table tr.Total td,
+table tr[data-type="total"] td {
+	border-bottom: 1.25pt solid prince-color(gris);
+}
+
+
+
+
+/* Tab */
+table tr.tab td.titleCol { padding-left: 4mm; }
+table tr.indent td.titleCol { padding-left: 4mm; }
+table tr.tab2 td.titleCol { padding-left: 8mm; }
+
+
+
+
+/* .alignRight */
+table td.alignRight.titleCol,
+table td.alignRight.titleCol * { text-align: right;}
+
+
+
+
+
+/* Current & Past */
+table td.current { 
+	color: prince-color(gris) !important; 
+/*	background: prince-color(secondary, 0.1);*/
+/*	background: #DBE7F5; */
+	/* ##DBE7F5 == 219,231,245 */
+	/*	background: #F5F8FC; */ /* light blue from 2014 report */
+	background: prince-color(secondary, 0.08); 
+}
+table td.past { 
+	color: prince-color(gris, 0.8) !important;
+}
+
+
+
+
+/* Money */
+table td.money { letter-spacing: 0; }
+
+
+
+
+/* .noLine */
+
+table tr.noLine,
+table tr.noLine td {
+	border: none !important;
+}
+
+/* .alignCenter */
+td.alignCenter, 
+td.alignCenter * {
+	text-align: center !important; /* aw, fuck */
+	padding: 0; margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	-	-	-	-	-	-	-	-	-	*
+/*	Tables - Individual table adjustments	*/
+
+
+
+
+/* IndicateursFinanciers */
+
+/* 50 + (3 × 12) = 86 */
+table[data-sheet=IndicateursFinanciers] {
+	    width: 86mm !important;
+	min-width: 86mm !important;
+	max-width: 86mm !important;
+}
+table[data-sheet=IndicateursFinanciers] td.titleCol { 
+	    width: 50mm;
+	min-width: 50mm;
+	max-width: 50mm;
+}
+table[data-sheet=IndicateursFinanciers] td:not(.titleCol) { 
+	    width: 12mm;
+	min-width: 12mm;
+	max-width: 12mm;
+}
+
+table[data-sheet=IndicateursFinanciers] tr,
+table[data-sheet=IndicateursFinanciers] tr *,
+table[data-sheet=IndicateursFinanciers] td,
+table[data-sheet=IndicateursFinanciers] td *,
+table[data-sheet=IndicateursFinanciers] tr.H3,
+table[data-sheet=IndicateursFinanciers] tr.H3 * { 
+	border: none;
+	height: 13pt;
+}
+
+
+table[data-sheet=IndicateursFinanciers] tr.H3 td {
+	border-top: 0.25pt solid prince-color(gris, 0.33);
+}
+
+table[data-sheet=IndicateursFinanciers] td.current { background: none; }
+
+
+#RapportGestion div:lang(FR) table[data-sheet=IndicateursFinanciers] span:lang(EN),
+#RapportGestion div:lang(EN) table[data-sheet=IndicateursFinanciers] span:lang(FR) { 
+	display: none;
+}
+#RapportGestion table[data-sheet=IndicateursFinanciers] td span.plainText, 
+#RapportGestion table[data-sheet=IndicateursFinanciers] td span.translation {
+	display: inline;
+	margin: 0; padding: 0;
+	min-height: 0;
+	line-height: inherit;
+	vertical-align: bottom;
+}
+
+
+
+
+/* PerimetreDeConsolidation */
+
+table[data-sheet=PerimetreDeConsolidation] {
+	width: 178mm;
+/*	float:left;
+	position: relative;
+	clear: both;
+*/	margin-bottom: 1em;
+}
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(1) {width: 65mm; }
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(2) {width: 50mm; }
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(3) {width: 29mm; }
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(4) {width: 34mm; }
+
+table[data-sheet=PerimetreDeConsolidation] tr:first-of-type { 
+	    height: 44pt; 
+	max-height: 44pt; 
+	min-height: 44pt; 
+}
+table[data-sheet=PerimetreDeConsolidation] tr:nth-of-type(1n+2) { 
+	    height: 33pt; 
+	max-height: 33pt; 
+	min-height: 33pt; 
+}
+
+
+
+
+
+/* ConversionMonnaies */
+table[data-sheet=ConversionMonnaies] {
+	width: 178mm;
+	margin-bottom: 1em;
+}
+table[data-sheet=ConversionMonnaies] tr td:nth-of-type(1) {width: 92mm; }
+table[data-sheet=ConversionMonnaies] tr td:nth-of-type(2) {width: 43mm; }
+table[data-sheet=ConversionMonnaies] tr td:nth-of-type(3) {width: 43mm; }
+
+table[data-sheet=PerimetreDeConsolidation] tr:first-of-type { 
+	    height: 11pt; 
+	max-height: 11pt; 
+	min-height: 11pt; 
+}
+table[data-sheet=PerimetreDeConsolidation] tr:nth-of-type(1n+2) { 
+	    height: 22pt; 
+	max-height: 22pt; 
+	min-height: 22pt; 
+}
+
+
+
+
+/* .Bilan */
+/* #C_Bilan */
+table[data-sheet=C_Bilan] tr.row_16 td.titleCol span:lang(FR),
+table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(FR) { letter-spacing: -0.005em; }
+table[data-sheet=C_Bilan] tr.row_16 td.titleCol span:lang(EN), 
+table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: -0.022em; }
+
+
+
+
+/* #C_HorsBilan */
+
+
+
+
+/* #C_Resultat */
+
+/* #C_Resultat_ProduitsCharges */
+
+/* #C_Resultat_Financement */
+.financialTable.Resultat_Financement table td.titleCol,
+.financialTable.Resultat_Financement table * td.titleCol { 
+	    width: 98mm;
+	min-width: 98mm;
+	max-width: 98mm;
+}
+.financialTable.Resultat_Financement table td:not(.titleCol),
+.financialTable.Resultat_Financement table * td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+
+
+
+/* EtatCapitauxPropres */
+.financialTable.EtatCapitauxPropres table td.titleCol,
+.financialTable.EtatCapitauxPropres table * td.titleCol { 
+/*	    width: 98mm;
+	min-width: 98mm;
+	max-width: 98mm;
+	*/
+}
+.financialTable.EtatCapitauxPropres table td:not(.titleCol),
+.financialTable.EtatCapitauxPropres table * td:not(.titleCol) { 
+	    width: 18mm;
+	min-width: 18mm;
+	max-width: 18mm;
+}
+
+
+
+
+/* #C_InformationBilan */
+
+/* #C_iBilan_ApercuCouv-PretsCompr */
+.financialTable.iBilan_ApercuCouv-PretsCompr table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iBilan_ApercuCouv-PretsCompr table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+/* #C_iBilan_ImmoblstnFinancieres */
+.financialTable.iBilan_ImmoblstnFinancieres table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iBilan_ImmoblstnFinancieres table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+/* new second table */
+.financialTable.iBilan_ImmoblstnFinancieres table.sub td.titleCol { 
+	/*    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+*/}
+.financialTable.iBilan_ImmoblstnFinancieres table.sub td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+	/*color: #F0F !important;*/ /* color works, width does not -- TO-DO */
+}
+
+
+
+/* .iBilan_Instr_Derives */
+.financialTable.iBilan_Instr_Derives table td.titleCol { 
+/*	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+*/}
+.financialTable.iBilan_Instr_Derives table td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+
+
+
+
+/* #C_iBilan_ParticipnsNonConsolid */
+
+/* I_iBilan_Participations */
+
+.financialTable.I_iBilan_Participations table td.titleCol { 
+	    width: 58mm;
+	min-width: 58mm;
+	max-width: 58mm;
+}
+
+
+.financialTable.I_iBilan_Participations table tr td:not(.titleCol) { 
+	    width: 30mm;
+	min-width: 30mm;
+	max-width: 30mm;
+}
+
+table[data-sheet=I_iBilan_Participations] tr td:nth-of-type(2) {
+	width: 60mm !important;
+}
+
+
+
+/* #C_iBilan_AutrActifPass-ActifsGa */
+.financialTable.iBilan_AutrActifPass-ActifsGa table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iBilan_AutrActifPass-ActifsGa table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+/* #C_iBilan_PresentnActifImmoblis */
+.financialTable.iBilan_PresentnActifImmoblis table td.titleCol { 
+	    width: 66mm;
+	min-width: 66mm;
+	max-width: 66mm;
+
+	    width: 50mm; /* temporary hack */
+	min-width: 50mm; /* temporary hack */
+	max-width: 50mm; /* temporary hack */
+}
+.financialTable.iBilan_PresentnActifImmoblis table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+
+	    width: 11mm; /* temporary hack */
+	min-width: 11mm; /* temporary hack */
+	max-width: 11mm; /* temporary hack */
+}
+
+
+
+
+/* #C_CorrectifsValeursProvisions */
+.financialTable.CorrectifsValeursProvisions table td.titleCol { 
+	    width: 80mm;
+	min-width: 80mm;
+	max-width: 80mm;
+}
+.financialTable.CorrectifsValeursProvisions table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+.CorrectifsValeursProvisions h1.multilingual span:lang(FR) {
+	letter-spacing: -0.02em;
+}
+
+
+/* #C_JustificationCapitauxPropres */
+
+
+
+
+/* #C_StructureEcheancesActif */
+.financialTable.StructureEcheancesActif table td.titleCol { 
+	    width: 80mm;
+	min-width: 80mm;
+	max-width: 80mm;
+}
+.financialTable.StructureEcheancesActif table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+
+
+/* #C_CreancesEngagementsSocietes */
+
+
+
+
+/* #C_ActifsPassifsSuisseEtranger */
+.financialTable.ActifsPassifsSuisseEtranger table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.ActifsPassifsSuisseEtranger table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+
+/* #C_ActifsRepartisPays */
+.financialTable.ActifsRepartisPays  table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.ActifsRepartisPays  table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+
+
+/* #C_BilanMonnaies */
+/* #C_BilanMonnaiesActifs */
+/* #C_BilanMonnaiesPassifs */
+
+.financialTable.BilanMonnaiesActifs table td.titleCol,
+.financialTable.BilanMonnaiesPassifs table td.titleCol { 
+	    width: 80mm;
+	min-width: 80mm;
+	max-width: 80mm;
+}
+.financialTable.BilanMonnaiesActifs table td:not(.titleCol),
+.financialTable.BilanMonnaiesPassifs table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+
+
+
+
+/* #C_InformationHorsBilan */
+
+/* #C_iHorsBilan_Engagements */
+
+/* #C_iHorsBilan_Instruments */
+.financialTable.iHorsBilan_Instruments table td.titleCol { 
+	    width: 94mm;
+	min-width: 94mm;
+	max-width: 94mm;
+}
+.financialTable.iHorsBilan_Instruments table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+/* #C_iHorsBilan_OperationsFidu */
+
+/* #C_iHorsBilan_AvoirsClient */
+
+
+
+
+/* #C_InformationResultat */
+
+/* #C_iResultat_Negoce */
+
+/* #C_iResultat_Personnel */
+
+/* #C_iResultat_Exploitation */
+
+/* #C_iResultat_SuisseEtranger */
+.financialTable.iResultat_SuisseEtranger  table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iResultat_SuisseEtranger  table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+/* #C_iResultat_FondsPropres */
+
+/* #C_iResultat_FondsPropresReqis */
+
+
+
+/* #I_RepartitionBenefice */
+
+/* I_RepBenef_Financement */
+.financialTable.RepBenef_Financement table td.titleCol,
+.financialTable.RepBenef_Financement table * td.titleCol { 
+	    width: 98mm;
+	min-width: 98mm;
+	max-width: 98mm;
+}
+.financialTable.RepBenef_Financement table td:not(.titleCol),
+.financialTable.RepBenef_Financement table * td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+
+
+/* I_CapitalSocial */
+.financialTable.CapitalSocial table td.titleCol,
+.financialTable.CapitalSocial table * td.titleCol { 
+	    width: 56mm;
+	min-width: 56mm;
+	max-width: 56mm;
+}
+.financialTable.CapitalSocial table td:not(.titleCol),
+.financialTable.CapitalSocial table * td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+

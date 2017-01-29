@@ -1,0 +1,639 @@
+{
+  "id": "32",
+  "name": "C_iResultat_Intérêts",
+  "maxRow": 12,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "48",
+            "t": "s",
+            "v": "137",
+            "col": "A"
+          },
+          "style": {
+            "id": 48,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations se rapportant au compte de résultat consolidé"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C1",
+            "s": "89",
+            "col": "C"
+          },
+          "style": {
+            "id": 89,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "263",
+            "t": "s",
+            "v": "327",
+            "col": "A"
+          },
+          "style": {
+            "id": 263,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "327"
+        },
+        {
+          "inputCell": {
+            "r": "B2",
+            "s": "263",
+            "col": "B"
+          },
+          "style": {
+            "id": 263,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C2",
+            "s": "263",
+            "col": "C"
+          },
+          "style": {
+            "id": 263,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A3",
+            "s": "131",
+            "col": "A"
+          },
+          "style": {
+            "id": 131,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "131",
+            "col": "B"
+          },
+          "style": {
+            "id": 131,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "131",
+            "col": "C"
+          },
+          "style": {
+            "id": 131,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "186",
+            "t": "s",
+            "v": "418",
+            "col": "A"
+          },
+          "style": {
+            "id": 186,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Produits de refinancement dans la rubrique \"Produit des intérêts et des escomptes\""
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "185",
+            "col": "B"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "185",
+            "col": "C"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "188",
+            "t": "s",
+            "v": "419",
+            "col": "A"
+          },
+          "style": {
+            "id": 188,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Le produit des intérêts et des escomptes n'est pas crédité de coûts de refinancement des opérations de négoce."
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "185",
+            "col": "B"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "185",
+            "col": "C"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "185",
+            "col": "A"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "185",
+            "col": "B"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "185",
+            "col": "C"
+          },
+          "style": {
+            "id": 185,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "186",
+            "t": "s",
+            "v": "328",
+            "col": "A"
+          },
+          "style": {
+            "id": 186,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Intérêts négatifs"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "90",
+            "col": "B"
+          },
+          "style": {
+            "id": 90,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "22",
+            "col": "C"
+          },
+          "style": {
+            "id": 22,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A8",
+            "s": "264",
+            "t": "s",
+            "v": "420",
+            "col": "A"
+          },
+          "style": {
+            "id": 264,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Les intérêts négatifs concernant les opérations actives sont présentés comme réduction du produit des intérêts et des escomptes, et les intérêts négatifs concernant les opérations passives comme réduction des charges d’intérêts."
+        },
+        {
+          "inputCell": {
+            "r": "B8",
+            "s": "264",
+            "col": "B"
+          },
+          "style": {
+            "id": 264,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C8",
+            "s": "264",
+            "col": "C"
+          },
+          "style": {
+            "id": 264,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A9",
+            "s": "12",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B9",
+            "s": "90",
+            "t": "str",
+            "f": "\"31.12.\"&[1]_labels!$B$1",
+            "v": "31.12.2015",
+            "col": "B"
+          },
+          "style": {
+            "id": 90,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "formula": "\"31.12.\"&[1]_labels!$B$1",
+          "value": "31.12.2015"
+        },
+        {
+          "inputCell": {
+            "r": "C9",
+            "s": "22",
+            "t": "str",
+            "f": "\"31.12.\"&[1]_labels!$B$1-1",
+            "v": "31.12.2014",
+            "col": "C"
+          },
+          "style": {
+            "id": 22,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "\"31.12.\"&[1]_labels!$B$1-1",
+          "value": "31.12.2014"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A10",
+            "s": "87",
+            "t": "s",
+            "v": "421",
+            "col": "A"
+          },
+          "style": {
+            "id": 87,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Intérêts négatifs concernant les opérations actives (réduction du produit des intérêts et des escomptes)"
+        },
+        {
+          "inputCell": {
+            "r": "B10",
+            "s": "24",
+            "v": "544",
+            "col": "B"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "544"
+        },
+        {
+          "inputCell": {
+            "r": "C10",
+            "s": "25",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A11",
+            "s": "87",
+            "t": "s",
+            "v": "422",
+            "col": "A"
+          },
+          "style": {
+            "id": 87,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Intérêts négatifs concernant les opérations passives (réduction des charges d’intérêts)"
+        },
+        {
+          "inputCell": {
+            "r": "B11",
+            "s": "24",
+            "v": "0",
+            "col": "B"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "r": "C11",
+            "s": "25",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A12",
+            "s": "9",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B12",
+            "s": "26",
+            "col": "B"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C12",
+            "s": "27",
+            "col": "C"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:29:50Z",
+    "lastPrinted": "2016-04-13T07:54:41Z"
+  }
+}

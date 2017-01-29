@@ -1,0 +1,711 @@
+{
+  "id": "22",
+  "name": "I_iHorsBilan_AvoirsClientEvol",
+  "maxRow": 15,
+  "maxCol": 3,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "91",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations se rapportant aux operations hors bilan"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C1",
+            "s": "17",
+            "col": "C"
+          },
+          "style": {
+            "id": 17,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "79",
+            "t": "s",
+            "v": "223",
+            "col": "A"
+          },
+          "style": {
+            "id": 79,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Evolution des avoirs administrés"
+        },
+        {
+          "inputCell": {
+            "r": "B2",
+            "s": "18",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1",
+            "v": "31.12.2016",
+            "col": "B"
+          },
+          "style": {
+            "id": 18,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "B",
+          "type": "string",
+          "formula": "\"31.12.\"&_labels!$B$1",
+          "value": "31.12.2016"
+        },
+        {
+          "inputCell": {
+            "r": "C2",
+            "s": "24",
+            "t": "str",
+            "f": "\"31.12.\"&_labels!$B$1-1",
+            "v": "31.12.2015",
+            "col": "C"
+          },
+          "style": {
+            "id": 24,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "\"31.12.\"&_labels!$B$1-1",
+          "value": "31.12.2015"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A3",
+            "s": "80",
+            "t": "s",
+            "v": "224",
+            "col": "A"
+          },
+          "style": {
+            "id": 80,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total des avoirs administrés (y.c.prises en compte double) initiaux"
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "27",
+            "f": "+I_iHorsBilan_AvoirsClient!C7",
+            "v": "5225533",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "+I_iHorsBilan_AvoirsClient!C7",
+          "value": "5225533"
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "28",
+            "v": "3622049",
+            "col": "C"
+          },
+          "style": {
+            "id": 28,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "3622049"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "195",
+            "t": "s",
+            "v": "328",
+            "col": "A"
+          },
+          "style": {
+            "id": 195,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "+/- Apports / (retraits) nets d’argent frais"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "25",
+            "f": "42441+295151",
+            "v": "337592",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "42441+295151",
+          "value": "337592"
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "26",
+            "f": "445253+42705",
+            "v": "487958",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "445253+42705",
+          "value": "487958"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "195",
+            "t": "s",
+            "v": "329",
+            "col": "A"
+          },
+          "style": {
+            "id": 195,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "+/- Evolution des cours, intérêts, dividendes et évolution de change"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "25",
+            "f": "+B7-B3-B4",
+            "v": "-303954",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "+B7-B3-B4",
+          "value": "-303954"
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "26",
+            "f": "+C7-C3-C4-C6",
+            "v": "192552",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "+C7-C3-C4-C6",
+          "value": "192552"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "195",
+            "t": "s",
+            "v": "330",
+            "col": "A"
+          },
+          "style": {
+            "id": 195,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "+/- Autres effets"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "25",
+            "v": "0",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "26",
+            "v": "922974",
+            "col": "C"
+          },
+          "style": {
+            "id": 26,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "922974"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "80",
+            "t": "s",
+            "v": "225",
+            "col": "A"
+          },
+          "style": {
+            "id": 80,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total des avoirs administrés (y.c.prises en compte double) finaux"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "27",
+            "f": "+I_iHorsBilan_AvoirsClient!B7",
+            "v": "5259171",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "+I_iHorsBilan_AvoirsClient!B7",
+          "value": "5259171"
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "28",
+            "f": "+I_iHorsBilan_AvoirsClient!C7",
+            "v": "5225533",
+            "col": "C"
+          },
+          "style": {
+            "id": 28,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "+I_iHorsBilan_AvoirsClient!C7",
+          "value": "5225533"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A9",
+            "s": "229",
+            "t": "s",
+            "v": "281",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Durantl'exercice 2014, la Banque a repris d'une banque suisse pour CHF 922'974 d'avoirs administrés. Cette reprise est publiée sous \"Autres effets\"."
+        },
+        {
+          "inputCell": {
+            "r": "B9",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C9",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A11",
+            "s": "229",
+            "t": "s",
+            "v": "282",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "La Banque détermine le montant net d’argent frais en se basant sur les apports et retraits de fonds ainsi que de valeurs patrimoniales de la clientèle.  Le montant net d’argent frais s’entend hors variations liées au marché, aux cours de change et ne tient pas compte des d'intérêts et dividendes. Les frais et commissions sont considérés comme des apports/retraits."
+        },
+        {
+          "inputCell": {
+            "r": "B11",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C11",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A12",
+            "s": "173",
+            "col": "A"
+          },
+          "style": {
+            "id": 173,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B12",
+            "s": "174",
+            "col": "B"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C12",
+            "s": "174",
+            "col": "C"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A13",
+            "s": "229",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B13",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C13",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A14",
+            "s": "173",
+            "col": "A"
+          },
+          "style": {
+            "id": 173,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B14",
+            "s": "174",
+            "col": "B"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C14",
+            "s": "174",
+            "col": "C"
+          },
+          "style": {
+            "id": 174,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A15",
+            "s": "229",
+            "col": "A"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B15",
+            "s": "229",
+            "col": "B"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "C15",
+            "s": "229",
+            "col": "C"
+          },
+          "style": {
+            "id": 229,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

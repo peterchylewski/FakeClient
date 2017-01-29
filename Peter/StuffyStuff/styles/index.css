@@ -1,0 +1,80 @@
+/* Fonts */
+@import url("../../../rsrc/fonts/HelveticaNeue.font.css");
+
+
+/* CBH color tables */
+@import url("colors.css");
+
+
+/* PDF A4, Page geometry, Pagination */
+@import url("PDF-A4-layout-pagination.css");
+
+
+/* Multilingual */
+@import url("lang-multilingual.css");
+
+
+
+
+/* Global style */
+@import url("CBH-v2017.css");
+
+
+/* Tables */
+@import url("tables.css");
+
+/* Individual Tables */
+@import url("tables-individual.css");
+
+
+/* 2016 Edition */
+@import url("CBH-edition-2016.css");
+
+
+
+
+/*@import url("cbh.css");
+
+@import url("report.css");
+@import url("PDF-A4-layout.css");
+@import url("pagination.css");
+@import url("tables.css");
+@import url("tables-individual.css");
+@import url("lang-multilingual.css");
+@import url("PDF-screen.css");
+@import url("exceptions.css");
+@import url("2016.css");
+@import url("2016_screen.css");
+@import url("production.css");*/
+
+
+
+/*		css:		['cbh.css', 'colors.css', 'report.css', 'PDF-A4-layout.css', 'pagination.css', 'tables.css', 'tables-individual.css', 'lang-multilingual.css', 'PDF-screen.css', 'exceptions.css', '{thisYear}.css', '{thisYear}_screen.css', 'production.css', 'charts.css']
+*/
+
+
+
+/*@import url("2016_print.css");*/
+/**/
+
+/*@import url("charts.css");*/
+/*@import url("charts.less");*/
+
+/*@import url("lang-EN.css");*/
+/*@import url("lang-FR.css");*/
+
+/*@import url("PDF-print.css");*/
+
+
+/*@import url("temp.css");*/
+
+/*@import url("lang-monolingual.css"); */
+
+/*@import url("hyphenation.css");*/
+
+
+section > .label					{ display: none; }
+.pageBreakBefore					{ page-break-before: always; }
+
+tr.outsideRegion,
+td.outsideRegion 					{ display: none; }

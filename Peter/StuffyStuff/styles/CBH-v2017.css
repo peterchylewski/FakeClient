@@ -1,0 +1,569 @@
+/*	// // // // // // // // // // */
+/*	BASIC TYPOGRAPHY */
+
+body {
+	font-family: 'HelveticaNeueFont';
+	font-weight: normal;
+	font-weight: 300;
+	font-size: 9pt;
+	letter-spacing: 0.05em;
+	color: prince-color(gris);
+}
+
+body {
+	line-height: 11pt;
+}
+
+
+
+
+/*	// // // // // // // // // // */
+/*	REPORTSAPPNEW stuff */
+
+h1, h2, h3, h4, h5, h6, div.text {
+	clear: both;
+}
+
+div.text:after {
+	content: " ";
+	display: block;
+	clear:both;
+	height: 0.001mm;
+	overflow:hidden;
+}
+div.text .translation p:first-of-type { margin: 0; }
+div.text { margin-bottom: 1em; }
+
+
+
+
+
+
+/* Items where translations should behave as BLOCK elements - one on top of the other */
+
+h1 .translation						{ display: block; margin:0; float:none; }
+
+._TableMatieres h3 .translation		{ display: block; margin:0; float:none; }
+
+._CorporateInformation .translation,
+._CorporateInformation .translation p { display: block; margin:0!important; float:none; }
+
+._Annexe h2 .translation { display: block; margin:0; float:none; }
+._Annexe h3 .translation { display: block; margin:0; float:none; }
+._Annexe h4 .translation { display: block; margin:0; float:none; }
+._Annexe h5 .translation { display: block; margin:0; float:none; }
+._Annexe h6 .translation { display: block; margin:0; float:none; }
+
+/* Items where translations should behave as COLUMNS */
+
+._RapportActivite h3,
+._RapportActivite h4,
+._RapportReviseur h3,
+._RapportReviseur h4{ 
+	width: 100%;
+	columns: 2;
+	column-gap: 6mm;
+}
+._RapportActivite h3 .translation,
+._RapportActivite h4 .translation,
+._RapportReviseur h3 .translation,
+._RapportReviseur h4 .translation{
+	display: block;
+}
+
+._RapportActivite h3 .translation:lang(EN),
+._RapportActivite h4 .translation:lang(EN),
+._RapportReviseur h3 .translation:lang(EN),
+._RapportReviseur h4 .translation:lang(EN){
+	column-break-before: always;
+}
+
+
+._AnnexeText h2,
+._AnnexeText h3,
+._AnnexeText h4,
+._AnnexeText h5,
+._AnnexeText h6{ 
+	width: 100%;
+	columns: 2;
+	column-gap: 6mm;
+}
+._AnnexeText h2 .translation,
+._AnnexeText h3 .translation,
+._AnnexeText h4 .translation,
+._AnnexeText h5 .translation,
+._AnnexeText h6 .translation{
+	display: block;
+}
+._AnnexeText h2 .translation:lang(EN),
+._AnnexeText h3 .translation:lang(EN),
+._AnnexeText h4 .translation:lang(EN),
+._AnnexeText h5 .translation:lang(EN),
+._AnnexeText h6 .translation:lang(EN){
+	column-break-before: always;
+}
+
+
+
+
+/*	// // // // // // // // // // */
+/*	HYPHENATION */
+
+body {
+	hyphens: none;
+	widows: 2;
+	orphans: 2;
+}
+
+.hyphenOff, 
+.hyphenOff * , 
+.hyphenOff * * {
+	hyphens: none !important;
+}
+
+.hyphenOn, 
+.hyphenOn * , 
+.hyphenOn * * {
+	hyphens: auto !important;
+	prince-hyphenate-lines: 1;
+	prince-hyphenate-before:2;
+	prince-hyphenate-after:2;
+	
+	/* Exceptions !*/
+	prince-text-replace: "Désinvestissement" "Désinvest\00ADissement";
+}
+
+
+
+
+/*	// // // // // // // // // // */
+/*	GENERAL */
+
+h1 {
+	font-weight: 100;
+	font-size: 18pt;
+	line-height: 22pt;
+	margin-top: 0;
+	margin-bottom:0;
+}
+h1.small {
+	font-weight: normal;
+	letter-spacing: 0;
+	font-size: 13pt;
+	line-height: 15pt;
+	border-bottom: none;
+}
+
+h2 {
+	font-weight: bold;
+	letter-spacing: 0;
+	font-size: 10pt;
+	line-height: 12pt;
+
+	border-bottom: 1.25pt solid;
+}
+
+h3 {
+	font-weight: bold;
+	letter-spacing: 0;
+	font-size: inherit;
+}
+
+h4 {
+	font-weight: bold;
+	letter-spacing: 0;
+	font-size: 8pt;
+}
+
+b, strong {	letter-spacing: 0; }
+
+ul { margin-left: 5mm; }
+li { page-break-inside: avoid; }
+li::marker { 
+	width: 2.5mm;
+	text-align: left;
+}
+
+
+/* peter stuff */
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+p + p {
+	margin-top: 11pt;
+}
+/* peter stuff (end) */
+
+
+
+
+/*	// // // // // // // // // // */
+/*	SPECIFIC CLASSES */
+
+.cond,
+.condensed
+{
+	font-family: 'HelveticaCondensedFont';
+	letter-spacing: 0;
+}
+
+
+
+.thin { font-weight: 300; }
+
+
+
+
+/*	// // // // // // // // // // */
+/*	PAGE HEADER */
+
+.pageHeader h3 { 
+	font-family: 'Helvetica Neue'; 
+	font-weight: 100;
+}
+
+
+
+
+/*	// // // // // // // // // // */
+/*	SUFFIX in KCHF */
+
+.suffix_inKCHF span:lang(FR):after,
+.suffix_inKCHF span:lang(EN):after,
+ .suffix_inCHF span:lang(FR):after,
+ .suffix_inCHF span:lang(EN):after,
+ .suffix_suite span:lang(FR):after,
+ .suffix_suite span:lang(EN):after  {
+	padding-left: 0.5em;
+	font-size: 80%; /* TO-DO work out the exact size */
+	font-weight: 300;
+}
+
+.suffix_inKCHF span:lang(FR):after { content: "(en milliers de CHF)"; }
+.suffix_inKCHF span:lang(EN):after { content: "(in thousands of CHF)"; }
+
+.suffix_inCHF span:lang(FR):after { content: "(en CHF)"; }
+.suffix_inCHF span:lang(EN):after { content: "(in CHF)"; }
+
+.suffix_suite span:lang(FR):after { content: "(suite)"; }
+.suffix_suite span:lang(EN):after { content: "(continued)"; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	// // // // // // // // // // */
+/*	// // // // // // // // // // */
+/*	// // // // // // // // // // */
+/*	SECTION SPECIFIC */
+
+
+._RapportReviseur h3, 
+
+
+
+
+/* Theme pages */
+@page ThemePages				{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+@page ThemeIntro				{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+@page ThemeOverview				{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+@page RapportActiviteTitlePage	{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+@page ConsolidatedIntro			{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+@page IndividualIntro			{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+@page CorporateInformation		{	@bottom { content: flow(pageFooterNeg); vertical-align: bottom; }	}	/*{ background-color: prince-color(secondary, 0.2); }*/
+
+
+
+
+
+/* #Cover */
+@page Cover {
+	margin:0mm;
+	@top {
+		contet: "";
+		display:none;
+	}
+	@bottom { 
+		content: "";
+		display:none;
+	}
+}
+
+._coverImage {
+	width: 223mm;
+	height: 215mm;
+	position: absolute;
+	top:-3mm;
+	left:-10mm;
+	background-color: #FFF !important;
+}
+
+
+
+
+
+._coverTitle{ 
+	width: 180mm;
+	position: absolute;
+	top: 219.4mm;
+	left: 15mm;
+	left: 0mm; /* v2017 TEMP*/
+	text-align: right;
+}
+
+._coverTitle * {
+	font-size: 28pt;
+	line-height: 29pt;
+	text-align: right;
+	border: none;
+	margin:0;
+}
+._coverTitle h1 {
+	border: none;
+	margin:0;
+}
+
+._coverTitle h2 .translation:lang(EN) { display: none; } /* v2017 TEMP*/
+._coverTitle h2 {
+	font-weight: 600;
+	color: #FFF!important;
+	color: #000!important; /* v2017 TEMP*/
+}
+
+
+
+
+._coverLogo {
+	width: 180mm;
+	position: absolute;
+	top: 253.44mm;
+	left: 15mm;
+	text-align: left;
+	border-top: 1.25pt solid #FFF;
+	padding-top: 5mm;
+}
+
+._coverLogo ._imgLogo { width: 49.47mm; }
+._coverLogo-rear ._imgLogo { width:46mm; }
+
+._coverLogo ._imgLogo,
+._coverLogo-rear ._imgLogo{ 
+	background-image: url("../../rsrc/CBHlogo-thin.svg");
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+}
+
+
+
+
+
+
+/* TableMatieres */
+._TableMatieres h3 { 
+	margin-top: 4em;
+	border-bottom: 0.25pt solid prince-color(gris);
+}
+
+/* v2017 TO-DO -- TOC page refs */
+#TableMatieres .ToCItem:after { /* clearfix hack */
+	content: " ";
+	display: table;
+	clear:both;
+}
+
+#TableMatieres .refTitle { float: left; }
+#TableMatieres .pageRef { float: right; }
+
+/* #TableMatieres */ a.pageRefLink::after { content: target-counter(attr(href), page); } 
+/* #TableMatieres */ a { font-style: normal; font-weight: inherit; text-decoration: none; color: prince-color(gris); }
+
+#TableMatieres .ToCItem * br { display: none; } /* some titles contain hard line breaks... */
+
+
+
+
+
+/* #Organes */
+._Organes {
+	columns: 2;
+	column-gap: 6mm;
+}
+
+._Organes h2 {
+	border: none;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+	padding-top:0.5em;
+	border-bottom: 0.25pt solid prince-color(secondary, 0.25);
+}
+
+._Organes * {
+	display: block;
+	float: none;
+	margin:0;
+	clear:both;
+}
+
+._Organes h5 { 
+	margin-top: 1em !important;
+	/*background-color: rgba(255,0,255,0.25);*/
+}
+
+._Organes div.text {
+	display: block;
+	margin-bottom: 1em;
+}
+
+._Organes div.text div.translation p {
+	/*background-color: rgba(0,255,255,0.25);
+	border-bottom: 1px solid #00F;*/
+}
+
+._Organes h5 + div.text * {
+	margin:0 !important;
+}
+
+._SuccursaleZurich { column-break-before: always; }
+
+
+
+/* temp FUCK THIS */
+._Actionnariat { display: none;}
+
+
+/* temp v2017 */
+._Actionnariat *,
+._Actionnariat h3 span.translation,
+._Actionnariat h6 span.translation,
+._Actionnariat .text,
+._Actionnariat .text .translation,
+._Actionnariat .text .translation p
+{
+	display: inline !important;
+	width: auto !important;
+	border:0 !important;
+	margin:0 !important;
+	border: 0.25pt solid #F0F!important;
+	column-break-before: none;
+}
+._Actionnariat .text {
+	columns: 1 !important;
+}
+
+/* temp v2017 */
+._Actionnariat .label { display: none !important; }
+
+
+
+
+
+/* #RapportActivite */
+
+#IndicateursFinanciersBlock {
+	float: top next;
+}
+
+.Rapport-Gestion-Graphs {
+	display: block;
+	float: bottom;
+	min-height: 50mm;
+	width: 100%;
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 0.5pt solid prince-color(gris, 0.5);
+	/*background-color: prince-color(gris, 0.15);*/
+}
+
+
+#Perspectives h3:nth-of-type(1){ /* ### Conclusion */
+	/*	page-break-before: always; */
+	/* this interferes with our multilingual faux two-column thing, a lot of things do, and we might find a better design pattern for this problem (multilingual two columns...) */
+}
+
+
+
+
+
+.Annexe { }
+
+.Annexe h2 { text-transform: uppercase;}
+
+.Annexe h2:not(:first-of-type) {
+	page-break-before: always;
+}
+
+._Annexe h3 {
+	font-size: 10pt;
+}
+
+
+.InformationBilan div.multilingual.text { page-break-inside: avoid; }
+
+#CorrespondantsBancaires-List { }
+
+#CorrespondantsBancaires-List h2 { border: none; }
+
+#CorrespondantsBancaires-Devises, 
+#CorrespondantsBancaires-Titres { column-break-inside: avoid; }
+#CorrespondantsBancaires-Titres { column-break-before: always; }
+
+#CorrespondantsBancaires-List .item { margin-bottom: 1em; }
+#CorrespondantsBancaires-List .item .title {}
+#CorrespondantsBancaires-List .item .title span { display: block; width: 100%; }
+#CorrespondantsBancaires-List .item .correspondant {}
+
+#CorrespondantsBancaires-Note { margin-top: 2em; }
+
+
+
+._CorporateInformation {
+	columns: 2;
+}
+._CorporateInformation ._International {
+	column-break-before: always;
+}
+
+._CorporateInformation h1 {
+	font-weight: bold;
+	letter-spacing: 0;
+	font-size: 10pt;
+	line-height: 12pt;
+}
+
+._CorporateInformation h4,
+._CorporateInformation h4 .text,
+._CorporateInformation h4 .text .translation,
+._CorporateInformation h4 .text p { margin:0!important; }
+
+
+._CorporateInformation #coverLogo-rear { margin-bottom: 2em; }
+._CorporateInformation h2 { border:none; }
+._CorporateInformation p { margin: 0; padding: 0; }
+._CorporateInformation .location { margin-top: 2em; }
+._CorporateInformation p.city { font-weight: bold; color: prince-color(secondary);}
+._CorporateInformation p.name {}
+._CorporateInformation p.type {}
+._CorporateInformation p.type span.translation { display: block; }
+._CorporateInformation p.address { margin-top: 0.5em; }
+._CorporateInformation p.contact { margin-top: 0.5em; }
+
+
+#Impressum {
+	font-size: 6pt; 
+	position: absolute;
+	bottom: -15mm; 
+	color: prince-color(secondary, 0.4);
+}
+
+

@@ -1,0 +1,451 @@
+/*	-	-	-	-	-	-	-	-	-	*
+/*	Tables - Individual table adjustments	*/
+
+
+
+
+/* IndicateursFinanciers */
+
+/* 50 + (3 × 12) = 86 */
+table[data-sheet=IndicateursFinanciers] {
+	    width: 86mm !important;
+	min-width: 86mm !important;
+	max-width: 86mm !important;
+}
+table[data-sheet=IndicateursFinanciers] td.titleCol { 
+	    width: 50mm;
+	min-width: 50mm;
+	max-width: 50mm;
+}
+table[data-sheet=IndicateursFinanciers] td:not(.titleCol) { 
+	    width: 12mm;
+	min-width: 12mm;
+	max-width: 12mm;
+}
+
+table[data-sheet=IndicateursFinanciers] tr,
+table[data-sheet=IndicateursFinanciers] tr *,
+table[data-sheet=IndicateursFinanciers] td,
+table[data-sheet=IndicateursFinanciers] td *,
+table[data-sheet=IndicateursFinanciers] tr.H3,
+table[data-sheet=IndicateursFinanciers] tr.H3 * { 
+	border: none;
+	height: 13pt;
+}
+
+
+table[data-sheet=IndicateursFinanciers] tr.H3 td {
+	border-top: 0.25pt solid prince-color(gris, 0.33);
+}
+
+table[data-sheet=IndicateursFinanciers] td.current { background: none; }
+
+
+#RapportGestion div:lang(FR) table[data-sheet=IndicateursFinanciers] span:lang(EN),
+#RapportGestion div:lang(EN) table[data-sheet=IndicateursFinanciers] span:lang(FR) { 
+	display: none;
+}
+#RapportGestion table[data-sheet=IndicateursFinanciers] td span.plainText, 
+#RapportGestion table[data-sheet=IndicateursFinanciers] td span.translation {
+	display: inline;
+	margin: 0; padding: 0;
+	min-height: 0;
+	line-height: inherit;
+	vertical-align: bottom;
+}
+
+
+
+
+/* PerimetreDeConsolidation */
+
+table[data-sheet=PerimetreDeConsolidation] {
+	width: 178mm;
+/*	float:left;
+	position: relative;
+	clear: both;
+*/	margin-bottom: 1em;
+}
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(1) {width: 65mm; }
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(2) {width: 50mm; }
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(3) {width: 29mm; }
+table[data-sheet=PerimetreDeConsolidation] tr td:nth-of-type(4) {width: 34mm; }
+
+table[data-sheet=PerimetreDeConsolidation] tr:first-of-type { 
+	    height: 44pt; 
+	max-height: 44pt; 
+	min-height: 44pt; 
+}
+table[data-sheet=PerimetreDeConsolidation] tr:nth-of-type(1n+2) { 
+	    height: 33pt; 
+	max-height: 33pt; 
+	min-height: 33pt; 
+}
+
+
+
+
+
+/* ConversionMonnaies */
+table[data-sheet=ConversionMonnaies] {
+	width: 178mm;
+	margin-bottom: 1em;
+}
+table[data-sheet=ConversionMonnaies] tr td:nth-of-type(1) {width: 92mm; }
+table[data-sheet=ConversionMonnaies] tr td:nth-of-type(2) {width: 43mm; }
+table[data-sheet=ConversionMonnaies] tr td:nth-of-type(3) {width: 43mm; }
+
+table[data-sheet=PerimetreDeConsolidation] tr:first-of-type { 
+	    height: 11pt; 
+	max-height: 11pt; 
+	min-height: 11pt; 
+}
+table[data-sheet=PerimetreDeConsolidation] tr:nth-of-type(1n+2) { 
+	    height: 22pt; 
+	max-height: 22pt; 
+	min-height: 22pt; 
+}
+
+
+
+
+/* .Bilan */
+/* #C_Bilan */
+table[data-sheet=C_Bilan] tr.row_16 td.titleCol span:lang(FR),
+table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(FR) { letter-spacing: -0.005em; }
+table[data-sheet=C_Bilan] tr.row_16 td.titleCol span:lang(EN), 
+table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: -0.022em; }
+
+
+
+
+/* #C_HorsBilan */
+
+
+
+
+/* #C_Resultat */
+
+/* #C_Resultat_ProduitsCharges */
+
+/* #C_Resultat_Financement */
+.financialTable.Resultat_Financement table td.titleCol,
+.financialTable.Resultat_Financement table * td.titleCol { 
+	    width: 98mm;
+	min-width: 98mm;
+	max-width: 98mm;
+}
+.financialTable.Resultat_Financement table td:not(.titleCol),
+.financialTable.Resultat_Financement table * td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+
+
+
+/* EtatCapitauxPropres */
+.financialTable.EtatCapitauxPropres table td.titleCol,
+.financialTable.EtatCapitauxPropres table * td.titleCol { 
+/*	    width: 98mm;
+	min-width: 98mm;
+	max-width: 98mm;
+	*/
+}
+.financialTable.EtatCapitauxPropres table td:not(.titleCol),
+.financialTable.EtatCapitauxPropres table * td:not(.titleCol) { 
+	    width: 18mm;
+	min-width: 18mm;
+	max-width: 18mm;
+}
+
+
+
+
+/* #C_InformationBilan */
+
+/* #C_iBilan_ApercuCouv-PretsCompr */
+.financialTable.iBilan_ApercuCouv-PretsCompr table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iBilan_ApercuCouv-PretsCompr table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+/* #C_iBilan_ImmoblstnFinancieres */
+.financialTable.iBilan_ImmoblstnFinancieres table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iBilan_ImmoblstnFinancieres table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+/* new second table */
+.financialTable.iBilan_ImmoblstnFinancieres table.sub td.titleCol { 
+	/*    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+*/}
+.financialTable.iBilan_ImmoblstnFinancieres table.sub td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+	/*color: #F0F !important;*/ /* color works, width does not -- TO-DO */
+}
+
+
+
+/* .iBilan_Instr_Derives */
+.financialTable.iBilan_Instr_Derives table td.titleCol { 
+/*	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+*/}
+.financialTable.iBilan_Instr_Derives table td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+
+
+
+
+/* #C_iBilan_ParticipnsNonConsolid */
+
+/* I_iBilan_Participations */
+
+.financialTable.I_iBilan_Participations table td.titleCol { 
+	    width: 58mm;
+	min-width: 58mm;
+	max-width: 58mm;
+}
+
+
+.financialTable.I_iBilan_Participations table tr td:not(.titleCol) { 
+	    width: 30mm;
+	min-width: 30mm;
+	max-width: 30mm;
+}
+
+table[data-sheet=I_iBilan_Participations] tr td:nth-of-type(2) {
+	width: 60mm !important;
+}
+
+
+
+/* #C_iBilan_AutrActifPass-ActifsGa */
+.financialTable.iBilan_AutrActifPass-ActifsGa table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iBilan_AutrActifPass-ActifsGa table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+/* #C_iBilan_PresentnActifImmoblis */
+.financialTable.iBilan_PresentnActifImmoblis table td.titleCol { 
+	    width: 66mm;
+	min-width: 66mm;
+	max-width: 66mm;
+
+	    width: 50mm; /* temporary hack */
+	min-width: 50mm; /* temporary hack */
+	max-width: 50mm; /* temporary hack */
+}
+.financialTable.iBilan_PresentnActifImmoblis table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+
+	    width: 11mm; /* temporary hack */
+	min-width: 11mm; /* temporary hack */
+	max-width: 11mm; /* temporary hack */
+}
+
+
+
+
+/* #C_CorrectifsValeursProvisions */
+.financialTable.CorrectifsValeursProvisions table td.titleCol { 
+	    width: 80mm;
+	min-width: 80mm;
+	max-width: 80mm;
+}
+.financialTable.CorrectifsValeursProvisions table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+.CorrectifsValeursProvisions h1.multilingual span:lang(FR) {
+	letter-spacing: -0.02em;
+}
+
+
+/* #C_JustificationCapitauxPropres */
+
+
+
+
+/* #C_StructureEcheancesActif */
+.financialTable.StructureEcheancesActif table td.titleCol { 
+	    width: 80mm;
+	min-width: 80mm;
+	max-width: 80mm;
+}
+.financialTable.StructureEcheancesActif table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+
+
+/* #C_CreancesEngagementsSocietes */
+
+
+
+
+/* #C_ActifsPassifsSuisseEtranger */
+.financialTable.ActifsPassifsSuisseEtranger table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.ActifsPassifsSuisseEtranger table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+
+/* #C_ActifsRepartisPays */
+.financialTable.ActifsRepartisPays  table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.ActifsRepartisPays  table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+
+
+/* #C_BilanMonnaies */
+/* #C_BilanMonnaiesActifs */
+/* #C_BilanMonnaiesPassifs */
+
+.financialTable.BilanMonnaiesActifs table td.titleCol,
+.financialTable.BilanMonnaiesPassifs table td.titleCol { 
+	    width: 80mm;
+	min-width: 80mm;
+	max-width: 80mm;
+}
+.financialTable.BilanMonnaiesActifs table td:not(.titleCol),
+.financialTable.BilanMonnaiesPassifs table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+
+
+
+
+/* #C_InformationHorsBilan */
+
+/* #C_iHorsBilan_Engagements */
+
+/* #C_iHorsBilan_Instruments */
+.financialTable.iHorsBilan_Instruments table td.titleCol { 
+	    width: 94mm;
+	min-width: 94mm;
+	max-width: 94mm;
+}
+.financialTable.iHorsBilan_Instruments table td:not(.titleCol) { 
+	    width: 14mm;
+	min-width: 14mm;
+	max-width: 14mm;
+}
+
+/* #C_iHorsBilan_OperationsFidu */
+
+/* #C_iHorsBilan_AvoirsClient */
+
+
+
+
+/* #C_InformationResultat */
+
+/* #C_iResultat_Negoce */
+
+/* #C_iResultat_Personnel */
+
+/* #C_iResultat_Exploitation */
+
+/* #C_iResultat_SuisseEtranger */
+.financialTable.iResultat_SuisseEtranger  table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+.financialTable.iResultat_SuisseEtranger  table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+/* #C_iResultat_FondsPropres */
+
+/* #C_iResultat_FondsPropresReqis */
+
+
+
+/* #I_RepartitionBenefice */
+
+/* I_RepBenef_Financement */
+.financialTable.RepBenef_Financement table td.titleCol,
+.financialTable.RepBenef_Financement table * td.titleCol { 
+	    width: 98mm;
+	min-width: 98mm;
+	max-width: 98mm;
+}
+.financialTable.RepBenef_Financement table td:not(.titleCol),
+.financialTable.RepBenef_Financement table * td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+
+
+/* I_CapitalSocial */
+.financialTable.CapitalSocial table td.titleCol,
+.financialTable.CapitalSocial table * td.titleCol { 
+	    width: 56mm;
+	min-width: 56mm;
+	max-width: 56mm;
+}
+.financialTable.CapitalSocial table td:not(.titleCol),
+.financialTable.CapitalSocial table * td:not(.titleCol) { 
+	    width: 20mm;
+	min-width: 20mm;
+	max-width: 20mm;
+}
+

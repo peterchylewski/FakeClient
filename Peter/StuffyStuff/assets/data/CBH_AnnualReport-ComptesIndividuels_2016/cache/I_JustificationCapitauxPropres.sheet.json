@@ -1,0 +1,1062 @@
+{
+  "id": "4",
+  "name": "I_JustificationCapitauxPropres",
+  "maxRow": 7,
+  "maxCol": 11,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "191",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Etat des capitaux propres"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "G",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "39",
+            "col": "A"
+          },
+          "style": {
+            "id": 39,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "B2",
+            "s": "101",
+            "t": "s",
+            "v": "192",
+            "col": "B"
+          },
+          "style": {
+            "id": 101,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "Capital social"
+        },
+        {
+          "inputCell": {
+            "r": "C2",
+            "s": "101",
+            "t": "s",
+            "v": "253",
+            "col": "C"
+          },
+          "style": {
+            "id": 101,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "Réserve légale issue du capital"
+        },
+        {
+          "inputCell": {
+            "r": "D2",
+            "s": "101",
+            "t": "s",
+            "v": "121",
+            "col": "D"
+          },
+          "style": {
+            "id": 101,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "value": "Réserve légale issue du bénéfice"
+        },
+        {
+          "inputCell": {
+            "r": "E2",
+            "s": "101",
+            "t": "s",
+            "v": "25",
+            "col": "E"
+          },
+          "style": {
+            "id": 101,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "Bénéfice reporté"
+        },
+        {
+          "inputCell": {
+            "r": "F2",
+            "s": "101",
+            "t": "s",
+            "v": "193",
+            "col": "F"
+          },
+          "style": {
+            "id": 101,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "F",
+          "type": "number",
+          "value": "Bénéfice de l'exercice 2015"
+        },
+        {
+          "inputCell": {
+            "r": "G2",
+            "s": "101",
+            "t": "s",
+            "v": "21",
+            "col": "G"
+          },
+          "style": {
+            "id": 101,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "value": "Total"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "K2",
+            "s": "8",
+            "t": "s",
+            "v": "194",
+            "col": "K"
+          },
+          "style": {
+            "id": 8,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "K",
+          "type": "string",
+          "value": "Commentaire"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A3",
+            "s": "39",
+            "t": "str",
+            "f": "\"Capitaux propres au 01.01.\"&_labels!$B$1",
+            "v": "Capitaux propres au 01.01.2016",
+            "col": "A"
+          },
+          "style": {
+            "id": 39,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "formula": "\"Capitaux propres au 01.01.\"&_labels!$B$1",
+          "value": "Capitaux propres au 01.01.2016"
+        },
+        {
+          "inputCell": {
+            "r": "B3",
+            "s": "27",
+            "v": "32000",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "32000"
+        },
+        {
+          "inputCell": {
+            "r": "C3",
+            "s": "10",
+            "col": "C"
+          },
+          "style": {
+            "id": 10,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "D3",
+            "s": "27",
+            "f": "5566",
+            "v": "5566",
+            "col": "D"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "formula": "5566",
+          "value": "5566"
+        },
+        {
+          "inputCell": {
+            "r": "E3",
+            "s": "27",
+            "f": "52663",
+            "v": "52663",
+            "col": "E"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "formula": "52663",
+          "value": "52663"
+        },
+        {
+          "inputCell": {
+            "r": "F3",
+            "s": "10",
+            "col": "F"
+          },
+          "style": {
+            "id": 10,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "G3",
+            "s": "27",
+            "f": "SUM(B3:F3)",
+            "v": "90229",
+            "col": "G"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "formula": "SUM(B3:F3)",
+          "value": "90229"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "12",
+            "t": "s",
+            "v": "244",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Dividendes et autres distributions"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "25",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "D4",
+            "s": "25",
+            "col": "D"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "E4",
+            "s": "25",
+            "v": "-981",
+            "col": "E"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "-981"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "G4",
+            "s": "25",
+            "f": "SUM(B4:F4)",
+            "v": "-981",
+            "col": "G"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "formula": "SUM(B4:F4)",
+          "value": "-981"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "12",
+            "t": "s",
+            "v": "245",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Autres dotations / (prélèvements) affectant les autres réserves"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "25",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "D5",
+            "s": "25",
+            "v": "237",
+            "col": "D"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "value": "237"
+        },
+        {
+          "inputCell": {
+            "r": "E5",
+            "s": "25",
+            "v": "-237",
+            "col": "E"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "-237"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "F",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "G5",
+            "s": "25",
+            "f": "SUM(B5:F5)",
+            "v": "0",
+            "col": "G"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "formula": "SUM(B5:F5)",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "12",
+            "t": "s",
+            "v": "190",
+            "col": "A"
+          },
+          "style": {
+            "id": 12,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Bénéfice de l’exercice 2015"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "25",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "F6",
+            "s": "25",
+            "v": "6812",
+            "col": "F"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "F",
+          "type": "number",
+          "value": "6812"
+        },
+        {
+          "inputCell": {
+            "r": "G6",
+            "s": "25",
+            "f": "SUM(B6:F6)",
+            "v": "6812",
+            "col": "G"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "formula": "SUM(B6:F6)",
+          "value": "6812"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "K",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "39",
+            "t": "str",
+            "f": "\"Total des capitaux propres au 31.12.\"&_labels!$B$1&\" (avant répartition du bénéfice)\"",
+            "v": "Total des capitaux propres au 31.12.2016 (avant répartition du bénéfice)",
+            "col": "A"
+          },
+          "style": {
+            "id": 39,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "formula": "\"Total des capitaux propres au 31.12.\"&_labels!$B$1&\" (avant répartition du bénéfice)\"",
+          "value": "Total des capitaux propres au 31.12.2016 (avant répartition du bénéfice)"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "27",
+            "f": "SUM(B3:B6)",
+            "v": "32000",
+            "col": "B"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "SUM(B3:B6)",
+          "value": "32000"
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "27",
+            "f": "SUM(C3:C6)",
+            "v": "0",
+            "col": "C"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": "SUM(C3:C6)",
+          "value": "0"
+        },
+        {
+          "inputCell": {
+            "r": "D7",
+            "s": "27",
+            "f": "SUM(D3:D6)",
+            "v": "5803",
+            "col": "D"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "formula": "SUM(D3:D6)",
+          "value": "5803"
+        },
+        {
+          "inputCell": {
+            "r": "E7",
+            "s": "27",
+            "f": "SUM(E3:E6)",
+            "v": "51445",
+            "col": "E"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "formula": "SUM(E3:E6)",
+          "value": "51445"
+        },
+        {
+          "inputCell": {
+            "r": "F7",
+            "s": "27",
+            "f": {
+              "_text": "SUM(F3:F6)",
+              "t": "shared",
+              "ref": "F7:G7",
+              "si": "0"
+            },
+            "v": "6812",
+            "col": "F"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "F",
+          "type": "number",
+          "formula": {
+            "_text": "SUM(F3:F6)",
+            "t": "shared",
+            "ref": "F7:G7",
+            "si": "0"
+          },
+          "value": "6812"
+        },
+        {
+          "inputCell": {
+            "r": "G7",
+            "s": "27",
+            "f": {
+              "t": "shared",
+              "si": "0"
+            },
+            "v": "96060",
+            "col": "G"
+          },
+          "style": {
+            "id": 27,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "G",
+          "type": "number",
+          "formula": {
+            "t": "shared",
+            "si": "0"
+          },
+          "value": "96060"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "H",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "I",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "J",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "r": "K7",
+            "s": "102",
+            "t": "s",
+            "v": "195",
+            "col": "K"
+          },
+          "style": {
+            "id": 102,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "K",
+          "type": "string",
+          "value": "Différende d'arrondi +1 avec le bilan"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

@@ -1,0 +1,9 @@
+*[lang="FR"] {
+	hyphens: auto;
+	prince-hyphenate-patterns: url('../../rsrc/hyph_fr.dic');
+}
+
+*[lang="EN"] {
+	hyphens: auto;
+	prince-hyphenate-patterns: url('../../rsrc/hyph_en_GB.dic');
+}

@@ -1,0 +1,565 @@
+/*	-	-	-	-	-	-	-	-	-	-	*/
+/* Techinical basics */
+body {
+	font-kerning: normal;
+	text-rendering: optimizeLegibility;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	text-decoration: none;
+	
+	
+}
+
+
+@prince-pdf {
+	/* PDF should dispaly in reader as a 2-up facing-pages document. 
+	this has no effect on content, it’s purely a PDF display engine preference */
+	prince-pdf-page-layout: two-column-left;
+}
+
+
+@page {
+	size: A4 portrait;
+
+	padding:0;
+
+	margin-top: 20mm;
+	margin-bottom: 20mm;
+
+	/* if pages are single:
+		12mm outside + 20mm inside = 32mm total
+		32mm / 2 = 16mm distributed evenly */
+	margin-left: 16mm;
+	margin-right: 16mm;
+
+	/* Facing pages */
+	margin-outside: 12mm;
+	margin-inside: 20mm;
+
+}
+
+
+p { page-break-inside: avoid; }
+
+nobr, .nobr { white-space: nowrap }
+
+
+
+
+
+
+
+/* Named pages (basically anything with a .section) */
+
+                                             ._Cover { page: Cover;								prince-page-group: start; }
+                                     ._TableMatieres { page: TableMatieres;						prince-page-group: start; }
+                                           ._Organes { page: Organes;							prince-page-group: start; }	/* listed in #TableMatieres */
+
+                                        ._ThemePages { page: ThemePages;						prince-page-group: start; }
+                                        ._ThemeIntro { page: ThemeIntro;						prince-page-group: start; }
+                                   /* #ThemeOverview { page: ThemeOverview; } */
+                                         ._ThemePage { page: ThemePage;							prince-page-group: start; }
+
+                                   ._RapportActivite { page: RapportActivite;					prince-page-group: start; }	/* listed in #TableMatieres */
+                        /* #RapportActiviteTitlePage { page: RapportActiviteTitlePage;			prince-page-group: start; } */
+                             /* #RapportActiviteText { page: RapportActiviteText;				prince-page-group: start; } */
+._RapportActivite                     ._Introduction { page: Introduction;						prince-page-group: start; } */
+._RapportActivite                     ._ChiffresCles { page: ChiffresCles;						prince-page-group: start; }
+._RapportActivite                   ._RapportGestion { page: RapportGestion;					prince-page-group: start; }
+                                    /* #Perspectives { page: Perspectives;						prince-page-group: start; } */
+
+                                      ._Consolidated { page: Consolidated;						prince-page-group: start; }	/* listed in #TableMatieres */
+                               /* #ConsolidatedIntro { page: ConsolidatedIntro; } */
+._Consolidated                     ._RapportReviseur { page: C_RapportReviseur;					prince-page-group: start; }
+._Consolidated                               ._Bilan { page: C_Bilan;							prince-page-group: start; }
+._Consolidated                           ._HorsBilan { page: C_HorsBilan;						prince-page-group: start; }
+._Consolidated                            ._Resultat { page: C_Resultat;						prince-page-group: start; }
+._Consolidated                              ._Annexe { page: C_Annexe;							prince-page-group: start; }
+._Consolidated                    ._InformationBilan { page: C_InformationBilan;				prince-page-group: start; }
+._Consolidated   ._iBilanCorrectifsValeursProvisions { page: C_CorrectifsValeursProvisions;		prince-page-group: start; }
+._Consolidated        ._JustificationCapitauxPropres { page: C_JustificationCapitauxPropres;	prince-page-group: start; }
+._Consolidated       ._iBilanStructureEcheancesActif { page: C_StructureEcheancesActif;			prince-page-group: start; }
+                   /* #C_CreancesEngagementsSocietes { page: C_CreancesEngagementsSocietes;		prince-page-group: start; } */
+._Consolidated   ._iBilanActifsPassifsSuisseEtranger { page: C_ActifsPassifsSuisseEtranger;		prince-page-group: start; }
+._Consolidated            ._iBilanActifsRepartisPays { page: C_ActifsRepartisPays;				prince-page-group: start; }
+._Consolidated                 ._iBilanBilanMonnaies { page: C_BilanMonnaies;					prince-page-group: start; }
+._Consolidated                ._InformationHorsBilan { page: C_InformationHorsBilan;			prince-page-group: start; }
+._Consolidated                 ._InformationResultat { page: C_InformationResultat;				prince-page-group: start; }
+
+                                        ._Individual { page: Individual;						prince-page-group: start; }	/* listed in #TableMatieres */
+                                 /* #IndividualIntro { page: IndividualIntro; } */
+._Individual                       ._RapportReviseur { page: I_RapportReviseur;					prince-page-group: start; }
+._Individual                                 ._Bilan { page: I_Bilan;							prince-page-group: start; }
+._Individual                             ._HorsBilan { page: I_HorsBilan;						prince-page-group: start; }
+._Individual                              ._Resultat { page: I_Resultat;						prince-page-group: start; }
+._Individual                   ._RepartitionBenefice { page: I_RepartitionBenefice;				prince-page-group: start; }
+._Individual                                ._Annexe { page: I_Annexe;							prince-page-group: start; }
+._Individual                      ._InformationBilan { page: I_InformationBilan;				prince-page-group: start; }
+._Individual     ._iBilanCorrectifsValeursProvisions { page: I_CorrectifsValeursProvisions;		prince-page-group: start; }
+._Individual                   ._iBilanCapitalSocial { page: I_CapitalSocial;					prince-page-group: start; }
+._Individual          ._JustificationCapitauxPropres { page: I_JustificationCapitauxPropres;	prince-page-group: start; }
+._Individual         ._iBilanStructureEcheancesActif { page: I_StructureEcheancesActif;			prince-page-group: start; }
+                   /* #I_CreancesEngagementsSocietes { page: I_CreancesEngagementsSocietes;		prince-page-group: start; } */
+._Individual     ._iBilanActifsPassifsSuisseEtranger { page: I_ActifsPassifsSuisseEtranger;		prince-page-group: start; }
+._Individual              ._iBilanActifsRepartisPays { page: I_ActifsRepartisPays;				prince-page-group: start; }
+._Individual                   ._iBilanBilanMonnaies { page: I_BilanMonnaies;					prince-page-group: start; }
+._Individual                  ._InformationHorsBilan { page: I_InformationHorsBilan;			prince-page-group: start; }
+._Individual                   ._InformationResultat { page: I_InformationResultat;				prince-page-group: start; }
+
+/*                            #CorrespondantsBancaires { page: CorrespondantsBancaires;			prince-page-group: start; }*/	/* listed in #TableMatieres */
+                              ._CorporateInformation { page: CorporateInformation;				prince-page-group: start; }
+
+
+
+
+
+                      .blankPage { page: blankPage; }
+
+
+
+/*  temp v2017 */
+
+._ThemePage,
+._ThemePages {display: none;}
+
+/* Pagnination management */
+
+.section { 
+	/* always break before .sections */
+	/* v2017: we will NOT automaticall break before sections, only named ones, or page break before. */
+	
+	/* page-break-before: always; */
+	clear:both;
+}
+
+/* v2017: */
+.pageBreakBefore {
+	page-break-before: always;
+}
+
+
+
+
+
+.pageGroup { 
+	/* always break before .pageGroups, but never inside */
+	/* v2017 we don't have these anymore*/
+/*
+	page-break-before: always; 
+	page-break-inside: avoid;
+*/
+}
+.pageGroup .section { 
+	/* but never break before .sections in .pageGroups */
+	/* v2017 we don't have these anymore*/
+/*
+	page-break-before: avoid; 
+	page-break-after: avoid; 
+	page-break-inside: avoid; 
+*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	-	-	-	-	-	-	-	-	-	-	*/
+/*	Layout geometry, space, margins	*/
+
+@page TableMatieres					{	margin-top: 36mm; 	border-top: 1.25pt solid prince-color(gris, 0.25);	}
+._TableMatieres h1:first-of-type	{	position: absolute; top: -50pt; /* 2.5 h1 ems */ }
+
+@page Organes					{	margin-top: 36mm; 	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 22pt;	}
+._Organes h1:first-of-type		{	position: absolute; top: -72pt; /* 2.5 h1 ems + 22pt */ }
+
+@page ThemeIntro				{	margin-top: 36mm; 	border-top: 1.25pt solid #FFF;	padding-top: 22pt;	}
+._ThemeIntro h1:first-of-type	{	position: absolute; top: -72pt; /* 2.5 h1 ems + 22pt */ width: 100%; }
+
+@page RapportActiviteTitlePage				{	margin-top: 54.5mm; /* TO-DO this is eyeballed for the moment – I'll do the math when my brain works... */	border-top: 1.25pt solid #FFF;	padding-top: 22pt;	}
+#RapportActiviteTitlePage h1:first-of-type	{	position: absolute; top: -121pt; /* 4.5 h1 ems (99pt) + 22pt */ }
+
+@page RapportActiviteText					{	margin-top: 54.5mm; /**/ border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 11pt; }
+#RapportActiviteText h1:first-of-type		{	position: absolute; top: -110pt; /* 4.5 h1 ems (99pt) + 22pt */ } /* padding top is 11pt, so this moves back the same amount. this geometry is fucked. */
+
+@page ChiffresCles					{	margin-top: 36mm; 	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 11pt;	}
+._ChiffresCles h1:first-of-type		{	position: absolute; top: -61pt; /* 2.5 h1 ems + 22pt */ }
+
+@page RapportGestion				{	margin-top: 36mm; 	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 11pt;	}
+._RapportGestion h1:first-of-type	{	position: absolute; top: -61pt; /* 2.5 h1 ems + 22pt */ }
+
+@page Perspectives					{	margin-top: 36mm; 	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 11pt;	}
+#Perspectives h1:first-of-type		{	position: absolute; top: -61pt; /* 2.5 h1 ems + 22pt */ }
+
+
+@page ConsolidatedIntro				{	margin-top: 54.5mm; /* */	border-top: 1.25pt solid #FFF;	padding-top: 22pt;	}
+#ConsolidatedIntro h1:first-of-type	{	position: absolute; top: -121pt; /* 4.5 h1 ems (99pt) + 22pt */ }
+
+@page IndividualIntro				{	margin-top: 54.5mm; /* */	border-top: 1.25pt solid #FFF;	padding-top: 22pt;	}
+#IndividualIntro h1:first-of-type	{	position: absolute; top: -121pt; /* 4.5 h1 ems (99pt) + 22pt */ }
+
+
+@page C_RapportReviseur				{	margin-top: 54.5mm; /* */	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 22pt;	}
+@page I_RapportReviseur				{	margin-top: 54.5mm; /* */	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 22pt;	}
+._RapportReviseur h1:first-of-type	{	position: absolute; top: -121pt; /* 4.5 h1 ems (99pt) + 22pt */ }
+
+
+@page C_Annexe					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_Annexe					{	margin-top: 36mm;	padding-top: 11pt;	}
+._Annexe h1:first-of-type		{	position: absolute; top: -61pt; /* 4.5 h1 ems (99pt) + 22pt */ }
+
+
+@page C_Bilan								{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_Bilan:nth(2)						{	padding-top: 30pt; }
+@page I_Bilan								{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_Bilan:nth(2)						{	padding-top: 30pt; }
+._Bilan h1									{	position: absolute; top: -61pt; }
+
+
+@page C_HorsBilan							{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_HorsBilan:nth(2)					{	padding-top: 30pt; }
+@page I_HorsBilan							{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_HorsBilan:nth(2)					{	padding-top: 30pt; }
+._HorsBilan h1								{	position: absolute; top: -61pt; }
+
+
+@page C_Resultat							{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_Resultat:nth(2)						{	padding-top: 30pt; }
+@page C_Resultat:nth(3)						{	padding-top: 30pt; }
+@page C_Resultat:nth(4)						{	padding-top: 30pt; }
+@page I_Resultat							{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_Resultat:nth(2)						{	padding-top: 30pt; }
+._Resultat h1								{	position: absolute; top: -61pt; }
+
+
+@page I_RepartitionBenefice					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_RepartitionBenefice:nth(2)			{	padding-top: 30pt; }
+@page I_RepartitionBenefice:nth(3)			{	padding-top: 30pt; }
+._RepartitionBenefice h1					{	position: absolute; top: -61pt; }
+
+
+@page I_InformationBilan					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_InformationBilan:nth(2)				{	padding-top: 30pt; }
+@page I_InformationBilan:nth(3)				{	padding-top: 30pt; }
+@page I_InformationBilan:nth(4)				{	padding-top: 30pt; }
+@page C_InformationBilan					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_InformationBilan:nth(2)				{	padding-top: 30pt; }
+@page C_InformationBilan:nth(3)				{	padding-top: 30pt; }
+@page C_InformationBilan:nth(4)				{	padding-top: 19pt; }				/*!*/
+._InformationBilan h1						{	position: absolute; top: -61pt; }
+
+
+@page C_CorrectifsValeursProvisions			{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_CorrectifsValeursProvisions:nth(2)	{	padding-top: 30pt; }
+@page I_CorrectifsValeursProvisions			{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_CorrectifsValeursProvisions:nth(2)	{	padding-top: 30pt; }
+._iBilanCorrectifsValeursProvisions h1		{	position: absolute; top: -61pt; }
+
+
+@page I_CapitalSocial						{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_CapitalSocial:nth(2)				{	padding-top: 30pt; }
+._iBilanCapitalSocial h1					{	position: absolute; top: -61pt; }
+
+
+@page I_JustificationCapitauxPropres		{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_JustificationCapitauxPropres:nth(2)	{	padding-top: 30pt; }
+@page C_JustificationCapitauxPropres		{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_JustificationCapitauxPropres:nth(2)	{	padding-top: 30pt; }
+._JustificationCapitauxPropres h1			{	position: absolute; top: -61pt; }
+
+
+@page C_StructureEcheancesActif				{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_StructureEcheancesActif:nth(2)		{	padding-top: 30pt; }
+@page I_StructureEcheancesActif				{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_StructureEcheancesActif:nth(2)		{	padding-top: 30pt; }
+._iBilanStructureEcheancesActif h1			{	position: absolute; top: -61pt; }
+
+
+@page C_CreancesEngagementsSocietes			{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_CreancesEngagementsSocietes:nth(2)	{	padding-top: 30pt; }
+@page I_CreancesEngagementsSocietes			{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_CreancesEngagementsSocietes:nth(2)	{	padding-top: 30pt; }
+#I_CreancesEngagementsSocietes h1			{	position: absolute; top: -61pt; }
+
+
+@page C_ActifsPassifsSuisseEtranger			{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_ActifsPassifsSuisseEtranger:nth(2)	{	padding-top: 30pt; }
+@page I_ActifsPassifsSuisseEtranger			{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_ActifsPassifsSuisseEtranger:nth(2)	{	padding-top: 30pt; }
+._iBilanActifsPassifsSuisseEtranger h1		{	position: absolute; top: -61pt; }
+
+
+@page C_ActifsRepartisPays					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_ActifsRepartisPays:nth(2)			{	padding-top: 30pt; }
+@page I_ActifsRepartisPays					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_ActifsRepartisPays:nth(2)			{	padding-top: 30pt; }
+._iBilanActifsRepartisPays h1				{	position: absolute; top: -61pt; }
+
+
+@page C_BilanMonnaies						{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_BilanMonnaies:nth(2)				{	padding-top: 30pt; }
+@page I_BilanMonnaies						{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_BilanMonnaies:nth(2)				{	padding-top: 30pt; }
+._iBilanBilanMonnaies h1							{	position: absolute; top: -61pt; }
+
+
+@page C_InformationHorsBilan				{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_InformationHorsBilan:nth(2)			{	padding-top: 30pt; }
+@page I_InformationHorsBilan				{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_InformationHorsBilan:nth(2)			{	padding-top: 30pt; }
+._InformationHorsBilan h1					{	position: absolute; top: -61pt; }
+
+
+@page C_InformationResultat					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page C_InformationResultat:nth(2)			{	padding-top: 30pt; }
+@page C_InformationResultat:nth(3)			{	padding-top: 30pt; }
+@page I_InformationResultat					{	margin-top: 36mm;	padding-top: 11pt;	}
+@page I_InformationResultat:nth(2)			{	padding-top: 30pt; }
+._InformationResultat h1					{	position: absolute; top: -61pt; }
+
+
+
+
+
+@page CorrespondantsBancaires				{	margin-top: 36mm; 	border-top: 1.25pt solid prince-color(gris, 0.25);	padding-top: 22pt;	}
+#CorrespondantsBancaires h1:first-of-type	{	position: absolute; top: -72pt; /* 2.5 h1 ems + 22pt */ }
+
+@page CorporateInformation					{	margin-top: 36mm; 	border-top: 1.25pt solid #FFF;	padding-top: 22pt;	}
+._CorporateInformation h1:first-of-type		{	position: absolute; top: -72pt; /* 2.5 h1 ems + 22pt */ }
+
+/*	@page RapportExercice { margin-top: 55mm; }
+	#RapportExercice h1 { position: absolute; top: -45mm;  debugging border-top: 0.25pt solid #FC0; }
+*/
+/*	#Introduction {
+		margin-top: 1em;
+		padding-top: 4em;
+		border-top: 1.25pt solid prince-color(gris, 0.40);
+	}
+
+	@page RapportActivite:nth(2) { 
+		padding-top: 31.5mm;
+	}
+*/
+
+
+/* the first H1 in a section...  */
+/*	.section > h1:first-of-type { }	*/
+
+/*	.section { margin-bottom: 4em; } */
+
+
+
+
+/* Two column layout */
+.twoColumns {
+	columns: 2;
+	column-gap: 6mm;
+}
+
+/* multilingual text blocks are displayed as columns */
+.multilingual.text div.translation:lang(FR) { float:left; width: 86mm; }
+.multilingual.text div.translation:lang(EN) { float:left; width: 86mm; margin-left: 6mm; }
+
+
+
+
+/* Justify text in columns */
+.multilingual.text div.translation {
+	text-align: justify !important;
+	text-justify: distribute;
+	
+	/* if justification is on, we hyphenate */
+	hyphens: auto !important;
+	prince-hyphenate-lines: 1;
+	prince-hyphenate-before:2;
+	prince-hyphenate-after:2;
+}
+
+/* text is justified, titles are not! */
+.multilingual.text div.translation h1, 
+.multilingual.text div.translation h2, 
+.multilingual.text div.translation h3, 
+.multilingual.text div.translation h4 {
+	text-align: left !important;
+	hyphens: none !important; /* titles are not hyphenated */
+} 
+
+/* I could be more efficient and say that only <p> tags in colmns get justified, but I'll start with an opt-out list and move to an opt-in list if it gets out of hand… */
+
+
+
+.multilingual.text + .multilingual.text {
+	clear: both;
+}
+
+
+
+
+/*	-	-	-	-	-	-	-	-	-	-	*/
+/*	SPINE	*/
+
+._spine {
+	padding:0; margin:0;
+/*	background-color: rgba(255,0,255,0.25); */
+/*	height: 8mm; max-height: 8mm; overflow: hidden;
+	width: 60mm;*/
+	padding-bottom: 0;
+	float: left;
+	position: absolute;
+	z-index: 99;
+	transform: rotate(90deg);
+	transform-origin: top left;
+
+
+	top: 20mm;
+	left: 0mm;
+	padding-top: 2.67mm;
+}
+
+._spine *,
+._spine h3,
+._spine * * {
+	padding:0; margin:0;
+}
+
+._spine, 
+._spine *,
+._spine h3,
+._spine * * {
+	color: #FFF !important;
+	font-family: 'Helvetica Neue'; 
+	font-weight: 100;
+	font-size: 7.5pt; line-height: 7.5pt; letter-spacing: 0.05em;
+	/* 7.5 pt = 2.646 mm */
+}
+
+._spine h3.multilingual span:lang(FR):after {
+		color: #FFF !important;
+}
+
+
+
+/*	-	-	-	-	-	-	-	-	-	-	*/
+/*	Page header	*/
+
+@page {
+	@top {
+		content: flow(header);
+		vertical-align: top;
+	}
+}
+.pageHeader { flow: static(header) }
+
+.pageHeader {
+	text-align: outside;
+	padding:0; margin:0;
+	font-size: 7.5pt; line-height: 7.5pt; letter-spacing: 0;
+	width: 100%;
+/*	background-color: rgba(255,0,255,0.25); */
+}
+
+
+@page RapportActiviteTitlePage	{ @top { content: none; } }
+@page ConsolidatedIntro			{ @top { content: none; } }
+@page IndividualIntro			{ @top { content: none; } }
+@page CorrespondantsBancaires	{ @top { content: none; } }
+@page CorporateInformation 		{ @top { content: none; } }
+@page CorporateInformation 		{ @bottom { content: none; } }
+@page blankPage 				{ @top { content: none; } }
+
+
+/*	-	-	-	-	-	-	-	-	-	-	*/
+/*	Page footer	*/
+
+@page {
+	@bottom {
+		content: flow(pagefoooter);
+		vertical-align: bottom;
+	}
+}
+
+.pageFooter { flow: static(pagefoooter) }
+
+.pageFooterNeg { flow: static(pageFooterNeg) }
+
+.pageFooter, 
+.pageFooterNeg {
+	padding:0; margin:0;
+	padding-bottom: 10mm;
+	height: 5mm;
+	min-height: 5mm;
+	max-height: 5mm;
+/*	background-color: rgba(255,0,255.0.25); */
+}
+.pageFooter .PageNum,
+.pageFooterNeg .PageNum {
+	width: 10mm; float: outside;
+	text-align: outside;
+	content: counter(page);
+	color: prince-color(gris);
+	font-size: 13pt;
+	line-height: 13pt;
+	font-weight: 100;
+}
+.pageFooter .line,
+.pageFooterNeg .line { 
+	width: 168mm;
+	float: inside; 
+	border-bottom: 0.25pt solid prince-color(gris, 0.40);
+	position: relative; top: -0.694mm;
+}
+
+.pageFooterNeg .PageNum {
+/*	color: #FFF; */
+}
+.pageFooterNeg .line {
+	border-bottom-color: #FFF;
+}
+
+
+
+
+/* Image page geometry */
+
+
+.imageFrame, 
+.imageFrame * {
+	overflow: hidden;
+	  margin: 0; 
+	 padding: 0;
+}
+.imageFrame * {
+	position: relative;
+}
+
+
+.imagePage .imageFrame {
+	position: absolute !important;
+	     top: -3mm;		/* 3mm is the bleed off the page, so we're placing things there. */
+	    left: -3mm;
+	 z-index: -99;
+	/*   width: 216mm; */	/* our page is 210mm wide, + 2× 3mm = 216mm */
+	/*  height: 303mm; */	/* our page is 297mm tall, + 2× 3mm = 303mm */
+}
+
+
+/* this re-positions the images on the right-hand page for seamless double-pages spreads. never change this unless you change paper size.  */
+.spread .leftPage  .imagePositioning { top: 0mm; left: 0mm; } 
+.spread .rightPage .imagePositioning { top: 0mm; left: -210mm; } 
+
+
+

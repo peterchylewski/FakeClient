@@ -1,0 +1,102 @@
+/* Pantone 287C Blue */
+/* #002F87 */
+/*@prince-color P287 { alternate-color: rgb(0, 47, 135); }
+@prince-color bleu { alternate-color: rgb(0, 47, 135); }
+.P287 { color: prince-color(P287); fill: prince-color(P287); }
+.bleu { color: prince-color(bleu); fill: prince-color(bleu); }*/
+
+
+/* Pantone 287 U Blue (Uncoated!) */
+/* #3A5996 */
+@prince-color P287 { alternate-color: rgb(58, 89, 150); }
+@prince-color bleu { alternate-color: rgb(58, 89, 150); }
+.P287 { color: prince-color(P287); fill: prince-color(P287); }
+.bleu { color: prince-color(bleu); fill: prince-color(bleu); }
+
+
+
+/* Pantone 431 U Grey */
+/* #747C83 */
+@prince-color P431 { alternate-color: rgb(116, 124, 131); }
+@prince-color gris { alternate-color: rgb(116, 124, 131); }
+.431 { color: prince-color(P431); fill: prince-color(P431); }
+.gris { color: prince-color(gris); fill: prince-color(gris); }
+
+/* Pantone 430 U Grey */
+/* #808990 */
+/*@prince-color P430 { alternate-color: rgb(128, 137, 144); }
+@prince-color gris { alternate-color: rgb(128, 137, 144); }
+.430 { color: prince-color(P430); fill: prince-color(P430); }
+.gris { color: prince-color(gris); fill: prince-color(gris); }*/
+
+
+
+
+
+/* Black */
+@prince-color noir { alternate-color: rgb(0, 0, 0); }
+.noir { color: prince-color(noir); fill: prince-color(noir); }
+
+
+
+@prince-color grisClaire { alternate-color: rgb(218, 217, 215); }
+
+
+/* Temporary */
+@prince-color secondary { alternate-color: rgb(0, 75, 147); } /* #3A5996 = P287C (client asked for U and really wants U) */
+.secondary-color { color: prince-color(secondary); fill: prince-color(secondary); }
+
+
+
+
+
+/* COLORS */
+/* 
+- - - - - - - - - - -
+
+	Pantone 287
+
+	L	21
+	a	13
+	b	-56
+
+	R	0
+	G	47
+	B	135
+
+	#002f87
+
+	H	219°
+	S	100%
+	B	53%
+
+	C	100%
+	M	83%
+	Y	27%
+	K	9%
+
+- - - - - - - - - - -
+
+	Pantone 431
+
+	L	43
+	a	-3
+	b	-7
+
+	R	91
+	G	103
+	B	112
+
+	#5b6770
+
+	H	207°
+	S	19%
+	B	44%
+
+	C	64%
+	M	47%
+	Y	40%
+	K	27%
+
+- - - - - - - - - - -
+*/

@@ -1,0 +1,567 @@
+{
+  "id": "31",
+  "name": "I_iResultat_FondsProprsRatioLiq",
+  "maxRow": 7,
+  "maxCol": 5,
+  "rows": [
+    {
+      "id": "1",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A1",
+            "s": "23",
+            "t": "s",
+            "v": "355",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Informations relatives aux ratios de fonds propres, ratio de liquidité à court terme (LCR) et au ratio de levier"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A2",
+            "s": "23",
+            "col": "A"
+          },
+          "style": {
+            "id": 23,
+            "type": "unknown",
+            "formatCode": "General"
+          },
+          "id": "A",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A3",
+            "s": "20",
+            "t": "s",
+            "v": "339",
+            "col": "A"
+          },
+          "style": {
+            "id": 20,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio de liquidité"
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "B",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "C",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "D",
+          "type": "empty",
+          "value": ""
+        },
+        {
+          "inputCell": {
+            "type": "empty"
+          },
+          "style": {},
+          "id": "E",
+          "type": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A4",
+            "s": "9",
+            "t": "s",
+            "v": "361",
+            "col": "A"
+          },
+          "style": {
+            "id": 9,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Moyenne"
+        },
+        {
+          "inputCell": {
+            "r": "B4",
+            "s": "200",
+            "t": "s",
+            "v": "356",
+            "col": "B"
+          },
+          "style": {
+            "id": 200,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "Q4 2015"
+        },
+        {
+          "inputCell": {
+            "r": "C4",
+            "s": "200",
+            "t": "s",
+            "v": "357",
+            "col": "C"
+          },
+          "style": {
+            "id": 200,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "Q3 2015"
+        },
+        {
+          "inputCell": {
+            "r": "D4",
+            "s": "200",
+            "t": "s",
+            "v": "358",
+            "col": "D"
+          },
+          "style": {
+            "id": 200,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "D",
+          "type": "number",
+          "value": "Q2 2015"
+        },
+        {
+          "inputCell": {
+            "r": "E4",
+            "s": "200",
+            "t": "s",
+            "v": "359",
+            "col": "E"
+          },
+          "style": {
+            "id": 200,
+            "type": "number",
+            "formatCode": "#,##0.00"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "Q1 2015"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A5",
+            "s": "198",
+            "t": "s",
+            "v": "341",
+            "col": "A"
+          },
+          "style": {
+            "id": 198,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total des actifs liquides de haute qualité"
+        },
+        {
+          "inputCell": {
+            "r": "B5",
+            "s": "25",
+            "v": "373018",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "373018"
+        },
+        {
+          "inputCell": {
+            "r": "C5",
+            "s": "25",
+            "v": "345297",
+            "col": "C"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "345297"
+        },
+        {
+          "inputCell": {
+            "r": "D5",
+            "s": "25",
+            "v": "276318",
+            "col": "D"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "value": "276318"
+        },
+        {
+          "inputCell": {
+            "r": "E5",
+            "s": "25",
+            "v": "254211",
+            "col": "E"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "254211"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A6",
+            "s": "198",
+            "t": "s",
+            "v": "342",
+            "col": "A"
+          },
+          "style": {
+            "id": 198,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Total des sorties nettes de fonds"
+        },
+        {
+          "inputCell": {
+            "r": "B6",
+            "s": "25",
+            "v": "224182",
+            "col": "B"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "B",
+          "type": "number",
+          "value": "224182"
+        },
+        {
+          "inputCell": {
+            "r": "C6",
+            "s": "25",
+            "v": "205621",
+            "col": "C"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "C",
+          "type": "number",
+          "value": "205621"
+        },
+        {
+          "inputCell": {
+            "r": "D6",
+            "s": "25",
+            "v": "189332",
+            "col": "D"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "D",
+          "type": "number",
+          "value": "189332"
+        },
+        {
+          "inputCell": {
+            "r": "E6",
+            "s": "25",
+            "v": "181335",
+            "col": "E"
+          },
+          "style": {
+            "id": 25,
+            "type": "number",
+            "formatCode": "#,##0"
+          },
+          "id": "E",
+          "type": "number",
+          "value": "181335"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cols": [
+        {
+          "inputCell": {
+            "r": "A7",
+            "s": "202",
+            "t": "s",
+            "v": "343",
+            "col": "A"
+          },
+          "style": {
+            "id": 202,
+            "type": "string",
+            "formatCode": "@"
+          },
+          "id": "A",
+          "type": "string",
+          "value": "Ratio de liquidité à court terme (LCR)"
+        },
+        {
+          "inputCell": {
+            "r": "B7",
+            "s": "194",
+            "f": "+B5/B6",
+            "v": "1.6639070041305726",
+            "col": "B"
+          },
+          "style": {
+            "id": 194,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "B",
+          "type": "number",
+          "formula": "+B5/B6",
+          "value": "1.6639070041305726"
+        },
+        {
+          "inputCell": {
+            "r": "C7",
+            "s": "194",
+            "f": {
+              "_text": "+C5/C6",
+              "t": "shared",
+              "ref": "C7:E7",
+              "si": "0"
+            },
+            "v": "1.6792885940638358",
+            "col": "C"
+          },
+          "style": {
+            "id": 194,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "C",
+          "type": "number",
+          "formula": {
+            "_text": "+C5/C6",
+            "t": "shared",
+            "ref": "C7:E7",
+            "si": "0"
+          },
+          "value": "1.6792885940638358"
+        },
+        {
+          "inputCell": {
+            "r": "D7",
+            "s": "194",
+            "f": {
+              "t": "shared",
+              "si": "0"
+            },
+            "v": "1.4594363340586904",
+            "col": "D"
+          },
+          "style": {
+            "id": 194,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "D",
+          "type": "number",
+          "formula": {
+            "t": "shared",
+            "si": "0"
+          },
+          "value": "1.4594363340586904"
+        },
+        {
+          "inputCell": {
+            "r": "E7",
+            "s": "194",
+            "f": {
+              "t": "shared",
+              "si": "0"
+            },
+            "v": "1.4018860120770948",
+            "col": "E"
+          },
+          "style": {
+            "id": 194,
+            "type": "number",
+            "formatCode": "0.00%"
+          },
+          "id": "E",
+          "type": "number",
+          "formula": {
+            "t": "shared",
+            "si": "0"
+          },
+          "value": "1.4018860120770948"
+        }
+      ]
+    }
+  ],
+  "props": {
+    "app": "Microsoft Macintosh Excel",
+    "appVersion": "14.0300",
+    "creator": "Adrien Cater",
+    "created": "2013-02-28T10:12:43Z",
+    "lastModifiedBy": "A C",
+    "modified": "2017-01-16T16:30:18Z",
+    "lastPrinted": "2016-04-13T07:53:17Z"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "head": {
+    "uuid": "PSPSDPDS",
+    "type": "Report",
+    "name": "Stuff",
+    "description": "CBH 2016 Annual Report",
+    "languages": {
+      "fr": "français",
+      "en": "english"
+    },
+    "baseLang": "fr",
+    "formats": {
+      "date": "YYYY/MM/DD",
+      "financial": {
+        "symbol": "CHF",
+        "precision": 0,
+        "thousand": " ",
+        "format": {
+          "pos": "%v",
+          "neg": "– %v",
+          "zero": "—"
+        },
+        "decimal": ".",
+        "grouping": 3
+      }
+    },
+    "constants": {
+      "THIS_YEAR": "2016"
+    },
+    "dataSources": {
+      "CBH_AnnualReport-ComptesConsolides_2016": {
+        "format": "xlsx",
+        "fileName": "CBH_AnnualReport-ComptesConsolides_2016.xlsx",
+        "sheets": [
+          "C_Bilan",
+          "C_HorsBilan",
+          "C_Resultat_ProduitsCharges",
+          "C_JustificationCapitauxPropres",
+          "C_Resultat_Financement",
+          "C_iBilan_ApercuCouv-PretsCompr",
+          "C_Instr_Derives",
+          "C_Instr_Derives-repart",
+          "C_iBilan_ImmoblstnFinancieres",
+          "C_iBilan_ImmoblstnFinancier-rep",
+          "C_iBilan_ParticipnsNonConsolid",
+          "C_iBilan_Particpermasign",
+          "C_iBilan_PresentnImmoblisCorpl",
+          "C_iBilan_PresentnValeursImmtrls",
+          "C_iBilan_AutrActifPass-ActifsGa",
+          "C_iBilan_EngPrevoyanceProf",
+          "C_iBilan_InstPrevProf",
+          "C_CorrectifsValeursProvisions",
+          "C_CapitalSoc-interne",
+          "C_TransactionsPartiesLiees",
+          "C_StructureEcheancesActif",
+          "C_ActifsPassifsSuisseEtranger",
+          "C_ActifsRepartisPays",
+          "C_ActifsSolvab",
+          "C_BilanMonnaiesActifs",
+          "C_BilanMonnaiesPassifs",
+          "C_iHorsBilan_Engagements",
+          "C_iHorsBilan_OperationsFidu",
+          "C_iHorsBilan_AvoirsClientRepart",
+          "C_iHorsBilan_AvoirsClientEvol",
+          "C_iResultat_Negoce",
+          "C_iResultat_Intérêts",
+          "C_iResultat_Personnel",
+          "C_iResultat_Exploitation",
+          "C_iResultat_Extraordinaires",
+          "C_iResultat_SuisseEtranger",
+          "C_iImpôts",
+          "C_iResultat_FondsPropres",
+          "C_iResultat_FondsPropresReqis",
+          "C_iResultat_FondsProprsRatioLiq",
+          "C_iResultat_FondsProprsRatioLev",
+          "_labels"
+        ]
+      },
+      "CBH_AnnualReport-ComptesIndividuels_2016": {
+        "format": "xlsx",
+        "fileName": "CBH_AnnualReport-ComptesIndividuels_2016.xlsx",
+        "sheets": [
+          "I_Bilan",
+          "I_HorsBilan",
+          "I_Resultat_ProduitsCharges",
+          "I_JustificationCapitauxPropres",
+          "I_RepartitionBenefice",
+          "I_Bilan_CommHedgAcc",
+          "I_iBilan_ApercuCouv-PretsCompr",
+          "I_Instr_Derives",
+          "I_Instr_Derives-repart",
+          "I_iBilan_ImmoblstnFinanciers",
+          "I_iBilan_ImmoblstnFinancier-rep",
+          "I_iBilan_AutrActifPass-ActifsGa",
+          "I_iBilan_EngInstPrevProf",
+          "I_iBilan_InstPrevProf",
+          "I_CorrectifsValeursProvisions",
+          "I_CapitalSocial",
+          "I_CapitalSocial-interne",
+          "I_CréancEngPartliées",
+          "I_ActifsSolvab",
+          "I_iHorsBilan_OperationsFidu",
+          "I_iHorsBilan_AvoirsClient",
+          "I_iHorsBilan_AvoirsClientEvol",
+          "I_iResultat_Negoce",
+          "I_iResultat_Intérêts",
+          "I_iResultat_Personnel",
+          "I_iResultat_Exploitation",
+          "I_iResultat_Extraordinaires",
+          "I_iImpôts",
+          "I_iResultat_FondsPropres",
+          "I_iResultat_FondsPropresReqis",
+          "I_iResultat_FondsProprsRatioLiq",
+          "I_iResultat_FondsProprsRatioLev",
+          "_labels"
+        ]
+      }
+    },
+    "options": {
+      "visibleLangs": [
+        "fr",
+        "en"
+      ]
+    },
+    "output": {
+      "pdf": {
+        "baseCSS": [
+          "cbh.css"
+        ],
+        "variants": {
+          "pdf_for_screen": {
+            "name": "PDF for Screen",
+            "baseName": "{projectName}.{lang}.screen",
+            "css": [
+              "PDF-screen.css"
+            ]
+          },
+          "pdf_for_print": {
+            "name": "PDF for Print",
+            "baseName": "{projectName}.{lang}.print",
+            "css": [
+              "PDF-print.css"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "children": [
+      {
+        "type": "section",
+        "uuid": "cmVjdGlv",
+        "options": {
+          "humanReadableName": "RapportAnnuel",
+          "id": "RapportAnnuel",
+          "class": "title1",
+          "visible": true,
+          "pageBreakBefore": false,
+          "tag": "section"
+        },
+        "children": [
+          {
+            "uuid": "6299800e",
+            "type": "titleH6",
+            "options": {
+              "humanReadableName": "http://www.carcarebook.com/entrepreneur-bill-kasug..."
+            },
+            "contents": {
+              "fr": "http://www.carcarebook.com/entrepreneur-bill-kasuga-courage-helped-him-bring-music-to-the-publics-ears/",
+              "en": ""
+            }
+          },
+          {
+            "uuid": "5607b078",
+            "type": "dataTable",
+            "contents": {
+              "baseName": "CBH_AnnualReport-ComptesConsolides_2016",
+              "source": "CBH_AnnualReport-ComptesConsolides_2016.xlsx",
+              "extension": "xlsx",
+              "sheet": "C_Bilan",
+              "region": {
+                "topLeft": {
+                  "col": "A",
+                  "row": 2
+                },
+                "bottomRight": {
+                  "col": "C",
+                  "row": 36
+                }
+              }
+            },
+            "options": {
+              "humanReadableName": "C_Bilan",
+              "class": "cBilan"
+            }
+          },
+          {
+            "uuid": "9d01913e",
+            "type": "titleH1",
+            "options": {
+              "humanReadableName": "Entrepreneur Bill Kasuga "
+            },
+            "contents": {
+              "fr": "Entrepreneur Bill Kasuga ",
+              "en": "Annual Report "
+            }
+          },
+          {
+            "uuid": "a5b1af9d",
+            "type": "titleH3",
+            "options": {
+              "humanReadableName": "Courage Helped Him Bring Music To The Public’s Ear...",
+              "class": "newCBilanA5b1af9d"
+            },
+            "contents": {
+              "fr": "Courage Helped Him Bring Music To The Public’s Ears",
+              "en": ""
+            }
+          },
+          {
+            "uuid": "b154b355",
+            "type": "text",
+            "options": {
+              "humanReadableName": "Investor’s Business Daily For Bill Kasuga, life wi..."
+            },
+            "contents": {
+              "fr": "Investor’s Business Daily For Bill Kasuga, life without courage is no life at all. Courage means strivingto reach your goals in spite of the obstacles, Kasuga says. It also means fighting complacency in your life. Kasuga first showed his courage at 16 when he decided to leave behind a cushy lifestyle in Japan to return to the U.S., where he was born in 1915. At the time, he was living with his aunt and uncle, who had raised him since hewas 3 . Kasuga’s mother had died in the 1918 influenza epidemic. His father sent him and three siblings to live with relatives in Japan. Kasuga’s uncle wanted him to study medicine in Japan. But Kasuga wanted to get an education in the U.S. and start a business. He knew it wouldn’t be easy. He had to relearn English, retake two years of high school and work for an American family to earn tuition. With determination, he accomplished his goal. Kasuga co-founded Kenwood Electronics Inc. in 1961. A U.S. distributor of home audio products from Japan, it now sells more than 250 audio and video products for cars and homes. Kenwood USA Corp., as it’s now called, has annual sales of more than $700 million. The privately held company based in Long Beach, Calif., is No. 1 in sales of high-end car audio components and has the second biggest market share in car stereos overall.\n\nIn January, the Consumer Electronics Association honored the 86-year-old Kasugawith a lifetime achievement award. Kasuga stepped down as chairman of Kenwood USA in 1995. Kasuga relied on courage again shortly after he graduated from the University of San Francisco in 1941. He was rounded up with other Japanese-Americans during World War II and placed in an internment camp in Arizona in May 1942. Kasuga wouldn’t sit back and accept his fate there. To escape the bad conditions of the camp, he volunteered for the Army. Being fluent in English and Japanese, he was recruited into the intelligence division, where he taught Japanese between 1943 and 1958.\n\n“Every day you confront something you need the courage to do,” Kasuga said in arecent interview. “You have to take chances. You cannot sit and wait. The unknown is out there, but with God’s help you might be able to do it.” Kasuga enjoyed teaching Japanese, but eventually grew restless. He started looking for another job. “I got tired of teaching ABCs every day,” he said. “It didn’t have a future. I had to make a decision of what I liked. Since I studied economics, I had a business in mind all along – some sort of business all my own.” A friend told him about A&A Trading Corp., which imported Japanese audio equipment for RadioShack. The firm needed a sales manager who was fluent in Japanese and English. The job meant a move from Monterey, Calif., to New York City. But Kasuga knew change can bring opportunity. So he sold his house and moved with his wife and two children across the country.\n\nHe felt he could do a better job selling the Japanese products than RadioShack had done. Within a year, two executives from the manufacturer, Trio Corp., visited New York on business. Seizing the opportunity, Kasuga arranged to meet with them in secret. He told Trio’s executive vice president that Trio should sell its speakers, turntables and amplifiers under its own name.\n\nThe Trio official said he had thesame idea, but didn’t know how to do it. Kasuga said he could do it and asked for exclusive distribution rights. The executive agreed. Underscoring his commitment to honor his word, Kasuga sealed the deal with a handshake. “His word was his bond,” said Joseph Richter, president of Kenwood USA. “He’s very honest and forthright. There’s no hidden agenda with Bill.” That handshake agreement lasted for years, until Kenwood sold the company to Trio, Richter says. Trio bought Kenwood in 1986 and adopted the Kenwood name for its international operations and brand. In the mid-1970s, Trio had purchased 49% of Kenwood. When Kasuga started Kenwood as a distributor, he approached the Bank of Tokyo for financing. It rebuffed him because he didn’t have collateral. But Kasuga understood the value of networking. He asked all his friends for help. Through a friend, he met George Aratani, president of Mikasa, the maker of fine dinnerware. By outlining his plan for the distributor in detail, Kasugaconvinced him to finance the new company with about $250,000.\n\nAs for the company name, Kasuga knew he needed a solid American name to succeed. “The name was very difficult,” he said. “Japanese products were considered junk at the time. Most were junk, with the exception of the audio products I knew. Trio was making quality products.” He picked “Ken” because it’s both a Japanese and American name and it worked well for the popular Kenmore brand. He added “wood” because it was a hard substance and echoed Hollywood.\n\nKasuga had kept a close eye on trends, and noted how people were becoming more interested in stereo equipment. He made sure the company focused on audio products that people could afford. Kenwood sold its products for 10% to 15% less than its competitors. Later, whenrivals dropped their prices, Kenwood strove for quality and made new types of products. Innovators often become leaders, Kasuga knew. He pushed Kenwood to bring groundbreaking products to market. They included the first audio-video amplifier for home theater and the first anti-theft cassette deck that could slide out of the car dash. Kasuga was a tough competitor, yet he was respected and liked by executives at competing companies. Kasuga is congenial and honest, which is refreshing in the industry, says Ron Stone, president and CEO of Pioneer Electronics Services. “He’s focused, determined and very good at understanding the environment beforehe makes a decision,” Stone said. Kasuga worked tirelessly to gain the respect of retailers who sold his products, says Harry Elias, executive vice president and chief operating officer of JVC Company of America. He spent a lot of time visiting retailers and listening to their concerns, Elias says. “He would say, ‘The market doesn’t come to you, you have to go to the market.’ ” Kasuga believes in honesty above all else. “Avoid even white lies,” he tells his staff. “They can come back. Be truthful.” Another management philosophy he preaches is to trust people until you’re proved wrong. “That’s a tough one,” he admitted. As a manager, Kasuga preaches the importance of having a plan and sticking to your gut feelings. For instance, he continued to use free-lance sales representatives instead of staff sales people to sell Kenwood products, when others knocked him for it. He also believes in letting his workers know that he cares. He made it a point to walk around the building at least once a week to say hello and talk to the staff, Richter says. “His door was always open,” Richter said. “He was open to anyone coming in and talking to him about any issue they had regardless of where they happened to be in the company.”",
+              "en": ""
+            }
+          },
+          {
+            "uuid": "3ed44c48",
+            "type": "section",
+            "options": {
+              "humanReadableName": "new -3ed44c48"
+            },
+            "children": [
+              {
+                "uuid": "1b075f0a",
+                "type": "titleH1",
+                "options": {
+                  "humanReadableName": "Bill Maher Isn’t High on Trump: The State of Free ...",
+                  "pageBreakBefore": true,
+                  "visible": true
+                },
+                "contents": {
+                  "fr": "Bill Maher Isn’t High on Trump: The State of Free Speech in a New Era",
+                  "en": ""
+                }
+              },
+              {
+                "uuid": "2af69c10",
+                "type": "titleH6",
+                "options": {
+                  "humanReadableName": "Jim Rutenberg — MEDIATOR JAN. 15, 2017 — The New Y..."
+                },
+                "contents": {
+                  "fr": "Jim Rutenberg — MEDIATOR JAN. 15, 2017 — The New York Times",
+                  "en": ""
+                }
+              },
+              {
+                "uuid": "1b075f0axxx",
+                "type": "text",
+                "options": {
+                  "humanReadableName": "BEVERLY HILLS, Calif. — It was Nov. 12, and Bill M...",
+                  "pageBreakBefore": true,
+                  "visible": true
+                },
+                "contents": {
+                  "fr": "BEVERLY HILLS, Calif. — It was Nov. 12, and Bill Maher was about to begin his comedy act at the City National Civic in San Jose when he did something he hadn’t done in many years. He brought a drink with him to the stage; a standup roadie (tequila).\n\n“And boy did I miss it,” he joked with me last week. “What an idiot all those years — drinking’s fun. You hear that, kids? Drinking’s fun!”\n\nActually, that’s not why he did it, he said during a marathon session of talking and drinking — and, in his case, a wee bit of pot smoking — that started at his house here and ended several hours later at the nearby Polo Lounge (oh, the indignities of this job).\n\nHe says he considers drinking on stage unprofessional. But that night, so soon after the election, he needed something to calm his nerves. Donald J. Trump, who Mr. Maher said “lives for vengeance,” had just won control over the most powerful instruments of the government, like the Justice Department, and, more to the point, the F.B.I. And it was dawning on Mr. Maher that “no one’s been meaner to him than me.”\n\nMr. Maher has a unique perspective. He resides at that most treacherous intersection where free speech meets government power and political passion, dodging traffic from left and right. He also once accused Mr. Trump of being part orangutan by birth.\n\nBut first, a refresher on how Mr. Maher became a free-speech totem in 2001 with one provocative line on his late-night ABC show, “Politically Incorrect.” He said the Sept. 11 hijackers couldn’t be called “cowards,” especially when the United States’ preferred method of attack at the time — before the wars in Afghanistan and Iraq — was to lob cruise missiles from afar (“That’s cowardly,” he said). The White House criticized him, sponsors fled and, a few months later, ABC canceled his show.\n\nWhatever you might think of his argument, the moment was a dark chapter in the annals of public discourse. It could have been a career-ender, too, if HBO hadn’t provided Mr. Maher with safe harbor and a new show, “Real Time,” which has an audience of about 4.5 million viewers.\n\nYet, Mr. Maher puts that episode within “the normal parameters of awful.” He says he’s more worried about our new era, when no one knows what “normal” is going to look like.\n\nIt’s amazing how much anxiety Mr. Trump’s imminent inauguration is stirring in the free-speech business — but perhaps not surprising given his open hostility toward the press, his willingness to use his platform against any who cross him and his seemingly proud dismissal of the government and political norms that precede him. No one knows whether a year from now, we’ll see today’s fears as overblown, underblown, or on point.\n\nMr. Maher is taking the past-as-prologue approach based on his own experience in the Trumpian combat caldron in 2013.\n\nThat was when Mr. Maher launched a “birther”— or, “ape-r” — campaign about Mr. Trump, to rival the one Mr. Trump had pursued about President Obama’s citizenship. Appearing on “The Tonight Show,’’ he joked that Mr. Trump was the product of human-orangutan crossbreeding; it was the only thing, he said, that would explain the “color of his hair.” He said he would donate $5 million to a charity of Mr. Trump’s choice if he could prove this wasn’t the case. (Mr. Maher pledged $1 million in 2012 to a “super PAC” supporting Obama.)\n\nMr. Trump’s lawyers replied with a copy of his short-form birth certificate and a demand for the money, which Mr. Maher ignored. Then Mr. Trump filed a lawsuit that ultimately went nowhere. “It was worth it in comedy material,” Mr. Maher told me, taking a couple of puffs from a pipe molded into a bust of his head (a gift from a friend) as we stood by the bar in his Indian-themed living room. “But you definitely spent money.”\n\nThat is, Mr. Maher had the money to pay for the courage that another comedian may not have been able to afford. He takes it as a harbinger.\n\n“No one knows what this man is capable of,” Mr. Maher said. “I never, ever, ever felt worried — it never crossed my mind — that George Bush would do something crazy, even though I knew he hated me. He never sued me for a joke.”\n\nMr. Maher was particularly focused on reports that several F.B.I. agents were agitating before the election for more aggressive examination of Hillary Clinton, which Democrats feared was politically motivated to help Mr. Trump. (The Justice Department’s inspector general has announced a broad investigation into the F.B.I.’s election-year performance.)\n\n“It is a very troubling idea that the F.B.I. is politicized,” he said. “When the internal police department is politicized, that’s a place I don’t want to be on the wrong side of — I mean, that’s fascism.”\n\nYou could chalk it all up to shticky paranoia, and it’s quite a slippery slope from there to outright fascism. But with so many sharing similar worries (at least among those who didn’t support Mr. Trump) and with Mr. Trump’s continued cage rattling, I turned to Mr. Trump’s adviser, Kellyanne Conway, for a response.\n\nIt seemed especially fitting because she has been a longtime guest of Mr. Maher’s, dating to the 1990s when he was first blazing the political-comedy trail on Comedy Central.\n\nGiven Mr. Trump’s preference for Twitter, Ms. Conway joked, using the F.B.I. would be “so last century — it’s so bureaucratic and paperwork laden.”\n\nTurning more serious, she said, “He’s not going to use the ‘tools of state,’” repeating the wording of my question. I noted that there are, of course, guidelines, professional tenets and laws that are meant to preclude a president’s ability to use federal investigative power as a political weapon, and she agreed, saying “This is America.”\n\nMs. Conway acknowledged, though, that Mr. Maher’s fears were widely held, especially in Hollywood — witness Meryl Streep’s Golden Globes address. “Talk about a Hollywood story — folks are unnecessarily flattering themselves to think for two seconds that Donald Trump is going to call out the big dogs to make their lives miserable,” she said.\n\nShe described some of the discomfort as a natural reaction by “the elites” to an incoming president who is merely responding to their continued attacks. “Where’s the respect — open ear and open mind?’’ she said.\n\n“The same people who had hoped for and desired and absolutely assumed they were going to get a different election result never laid down their muskets,” she said. It was time, she said, to “take the poison out of the pen and keyboard.”\n\nMr. Maher has no plans to do that when his show comes back from hiatus on inauguration day, Jan. 20 (his birthday, and Ms. Conway’s).\n\nBut he shares Ms. Conway’s view of the cultural stakes in the election.\n\n“We’re the losers now, so it behooves us to break out of that bubble more,” he said.\n\nMr. Maher said speeches like Ms. Streep’s — calling actors, screenwriters and the news media to arms — weren’t going to solve anything.\n\n“It looks very insular,” he said. “Just the liberals talking to themselves, which they are very good at doing.”\n\nStill the bane of conservatives, Mr. Maher has more recently drawn scorn from liberals for his own diatribes against Islamic extremism, for which he says liberals have too much tolerance. That’s part of what he considers a politically correct corralling of speech from the left.\n\nAt the same time, his restaurant selection, the Polo Lounge, in the Beverly Hills Hotel, came in defiance of a Hollywood boycott that Ellen DeGeneres and Elton John helped start after the sultan of Brunei, whose investment agency owns the hotel, imposed a new penal code in his homeland based on Shariah law, making gay sex and adultery punishable by stoning to death.\n\nTo join the boycott, Mr. Maher said as we walked through the hotel lobby, would be to submit to an ineffectual form of “tokenism.”\n\n“As if the sultan of Brunei is up there looking at the receipts — we only sold two soups? Is Stallone still coming in?” he said. “But Sultan, your harem awaits — ‘I’m sorry, I’m still going over the receipts.’”\n\nWith that, we took our seats and the waiter approached. Surprised to see Mr. Maher, he asked “You’re not in hiding?” That got Mr. Maher all worked up again.\n\n“I can be scared,” he said, “and never pull a punch.” ",
+                  "en": ""
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

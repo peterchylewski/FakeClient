@@ -1,0 +1,96 @@
+/*	-	-	-	-	-	-	-	-	-	-	
+
+PRINCE-XML Selector Bug
+
+NORMALLY, we could/should use the span:[lang=en]{} selector
+BUT; The Prince disparoves, and forcues us to use the lang(en){} selector
+
+	-	-	-	-	-	-	-	-	-	-	*/
+
+
+
+
+/* v2017 Multilingual colors */
+.translation:lang(FR){
+	color: prince-color(bleu);
+}
+
+.translation:lang(EN){
+	color: prince-color(gris);
+}
+
+
+/* temp v2017 !!! */
+/* <span class="translation" lang="EN">***</span> */
+span.translation:contains("***") { display: none;}
+
+.translation hr {display: none;}
+
+
+
+/* multilingual titles are displayed as blocks */
+/* TO-DO: should we use .transation instead of :lang(--) ? */
+h1.multilingual span:lang(EN), 
+h1.multilingual span:lang(FR), 
+/*h2.multilingual span:lang(EN), 
+h2.multilingual span:lang(FR),
+h3.multilingual span:lang(EN), 
+h3.multilingual span:lang(FR),
+h4.multilingual span:lang(EN), 
+h4.multilingual span:lang(FR) */{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+/* .pageHeader */
+.pageHeader h3.multilingual span:lang(FR),
+.pageHeader h3.multilingual span:lang(EN) {
+	display: inline;
+	width: auto;
+}
+
+.pageHeader h3.multilingual span:lang(FR) { }
+
+.pageHeader h3.multilingual span:lang(FR):after {
+	content:"|";
+	margin-left: 1em;
+	color: prince-color(P287, 0.5);
+	margin-right: 1em; /* replaces margin-left:1em; on the EN??*/
+}
+
+.pageHeader h3.multilingual span:lang(EN) { /* margin-left: 1em; */ }
+
+
+
+
+/* #spine */
+#spine h3.multilingual span:lang(FR),
+#spine h3.multilingual span:lang(EN) {
+	display: inline;
+	width: auto;
+}
+
+#spine h3.multilingual span:lang(FR) { }
+
+#spine h3.multilingual span:lang(FR):after {
+	content:"|";
+	margin-left: 1em;
+	color: prince-color(P287, 0.5);
+	margin-right: 1em; /* replaces margin-left:1em; on the EN??*/
+}
+
+#spine h3.multilingual span:lang(EN) { /* margin-left: 1em; */ }
+
+
+
+
+
+/* Tables */
+
+table span.translation { 
+	display: block; 
+	margin:0; padding:0;
+}
