@@ -168,7 +168,43 @@
             },
             "contents": {
               "fr": "http://www.carcarebook.com/entrepreneur-bill-kasuga-courage-helped-him-bring-music-to-the-publics-ears/",
-              "en": ""
+              "en": "bar"
+            }
+          },
+          {
+            "uuid": "8281e355",
+            "type": "dataTable",
+            "contents": {
+              "baseName": "CBH_AnnualReport-ComptesConsolides_2016",
+              "source": "CBH_AnnualReport-ComptesConsolides_2016.xlsx",
+              "extension": "xlsx",
+              "sheet": "C_Bilan",
+              "region": {
+                "topLeft": {
+                  "col": "A",
+                  "row": 2
+                },
+                "bottomRight": {
+                  "col": "C",
+                  "row": 16
+                }
+              }
+            },
+            "options": {
+              "humanReadableName": "C_Bilan",
+              "class": "cBilan"
+            }
+          },
+          {
+            "uuid": "238e1c96",
+            "type": "titleH6",
+            "options": {
+              "humanReadableName": "new C_Bilan-238e1c96",
+              "class": "newCBilan238e1c96"
+            },
+            "contents": {
+              "fr": "",
+              "en": "foo"
             }
           },
           {
@@ -182,7 +218,7 @@
               "region": {
                 "topLeft": {
                   "col": "A",
-                  "row": 2
+                  "row": 17
                 },
                 "bottomRight": {
                   "col": "C",
@@ -208,7 +244,7 @@
           },
           {
             "uuid": "a5b1af9d",
-            "type": "titleH3",
+            "type": "titleH2",
             "options": {
               "humanReadableName": "Courage Helped Him Bring Music To The Public’s Ear...",
               "class": "newCBilanA5b1af9d"
@@ -274,6 +310,30 @@
                 }
               }
             ]
+          },
+          {
+            "uuid": "d663769e",
+            "type": "dataTable",
+            "contents": {
+              "baseName": "CBH_AnnualReport-ComptesConsolides_2016",
+              "source": "CBH_AnnualReport-ComptesConsolides_2016.xlsx",
+              "extension": "xlsx",
+              "sheet": "C_Bilan",
+              "region": {
+                "topLeft": {
+                  "col": "A",
+                  "row": 2
+                },
+                "bottomRight": {
+                  "col": "C",
+                  "row": 36
+                }
+              }
+            },
+            "options": {
+              "humanReadableName": "C_Bilan",
+              "class": "cBilan"
+            }
           }
         ]
       }

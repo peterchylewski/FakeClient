@@ -111,10 +111,10 @@ table[data-sheet=PerimetreDeConsolidation] tr:nth-of-type(1n+2) {
 
 /* .Bilan */
 /* #C_Bilan */
-table[data-sheet=C_Bilan] tr.row_16 td.titleCol span:lang(FR),
-table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(FR) { letter-spacing: -0.005em; }
-table[data-sheet=C_Bilan] tr.row_16 td.titleCol span:lang(EN), 
-table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: -0.022em; }
+._Bilan table tr[data-id="15"] td.titleCol span:lang(FR),
+._Bilan table tr[data-id="15"] td.titleCol span:lang(EN),
+._Bilan table tr[data-id="35"] td.titleCol span:lang(FR), 
+._Bilan table tr[data-id="35"] td.titleCol span:lang(EN) { letter-spacing: -0.022em; }
 
 
 
@@ -129,14 +129,14 @@ table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: 
 /* #C_Resultat_ProduitsCharges */
 
 /* #C_Resultat_Financement */
-.financialTable.Resultat_Financement table td.titleCol,
-.financialTable.Resultat_Financement table * td.titleCol { 
+._Resultat table td.titleCol,
+._Resultat table * td.titleCol { 
 	    width: 98mm;
 	min-width: 98mm;
 	max-width: 98mm;
 }
-.financialTable.Resultat_Financement table td:not(.titleCol),
-.financialTable.Resultat_Financement table * td:not(.titleCol) { 
+._Resultat table td:not(.titleCol),
+._Resultat table * td:not(.titleCol) { 
 	    width: 20mm;
 	min-width: 20mm;
 	max-width: 20mm;
@@ -144,16 +144,17 @@ table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: 
 
 
 
+
 /* EtatCapitauxPropres */
-.financialTable.EtatCapitauxPropres table td.titleCol,
-.financialTable.EtatCapitauxPropres table * td.titleCol { 
+._JustificationCapitauxPropres table td.titleCol,
+._JustificationCapitauxPropres table * td.titleCol { 
 /*	    width: 98mm;
 	min-width: 98mm;
 	max-width: 98mm;
 	*/
 }
-.financialTable.EtatCapitauxPropres table td:not(.titleCol),
-.financialTable.EtatCapitauxPropres table * td:not(.titleCol) { 
+._JustificationCapitauxPropres table td:not(.titleCol),
+._JustificationCapitauxPropres table * td:not(.titleCol) { 
 	    width: 18mm;
 	min-width: 18mm;
 	max-width: 18mm;
@@ -165,55 +166,60 @@ table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: 
 /* #C_InformationBilan */
 
 /* #C_iBilan_ApercuCouv-PretsCompr */
-.financialTable.iBilan_ApercuCouv-PretsCompr table td.titleCol { 
+._iBilanApercuCouvPretsCompr table td.titleCol { 
 	    width: 102mm;
 	min-width: 102mm;
 	max-width: 102mm;
 }
-.financialTable.iBilan_ApercuCouv-PretsCompr table td:not(.titleCol) { 
+._iBilanApercuCouvPretsCompr table td:not(.titleCol) { 
 	    width: 19mm;
 	min-width: 19mm;
 	max-width: 19mm;
 }
-
-/* #C_iBilan_ImmoblstnFinancieres */
-.financialTable.iBilan_ImmoblstnFinancieres table td.titleCol { 
-	    width: 102mm;
-	min-width: 102mm;
-	max-width: 102mm;
-}
-.financialTable.iBilan_ImmoblstnFinancieres table td:not(.titleCol) { 
-	    width: 19mm;
-	min-width: 19mm;
-	max-width: 19mm;
-}
-
-
-/* new second table */
-.financialTable.iBilan_ImmoblstnFinancieres table.sub td.titleCol { 
-	/*    width: 102mm;
-	min-width: 102mm;
-	max-width: 102mm;
-*/}
-.financialTable.iBilan_ImmoblstnFinancieres table.sub td:not(.titleCol) { 
-	    width: 19mm;
-	min-width: 19mm;
-	max-width: 19mm;
-	/*color: #F0F !important;*/ /* color works, width does not -- TO-DO */
-}
-
 
 
 /* .iBilan_Instr_Derives */
-.financialTable.iBilan_Instr_Derives table td.titleCol { 
+._iBilanInstrDerives table td.titleCol { 
 /*	    width: 102mm;
 	min-width: 102mm;
 	max-width: 102mm;
 */}
-.financialTable.iBilan_Instr_Derives table td:not(.titleCol) { 
+._iBilanInstrDerives table td:not(.titleCol) { 
 	    width: 20mm;
 	min-width: 20mm;
 	max-width: 20mm;
+}
+
+._iBilanInstrDerives table:nth-of-type(2) td:not(.titleCol) { 
+	    width: 40mm;
+	min-width: 40mm;
+	max-width: 40mm;
+}
+
+
+
+/* #C_iBilan_ImmoblstnFinancieres */
+._iBilanImmoblstnFinancieres table td.titleCol { 
+	    width: 102mm;
+	min-width: 102mm;
+	max-width: 102mm;
+}
+._iBilanImmoblstnFinancieres table td:not(.titleCol) { 
+	    width: 19mm;
+	min-width: 19mm;
+	max-width: 19mm;
+}
+
+
+table[data-sheet="C_iBilan_ImmoblstnFinancier-rep"] td.titleCol {
+	    width: 16mm;
+	min-width: 16mm;
+	max-width: 16mm; /* maybe? TO-DO v2017*/
+}
+table[data-sheet="C_iBilan_ImmoblstnFinancier-rep"] td:not(.titleCol) {
+	    width: 10mm;
+	min-width: 10mm;
+	max-width: 10mm; /* maybe? TO-DO v2017*/
 }
 
 
@@ -223,17 +229,17 @@ table[data-sheet=C_Bilan] tr.row_30 td.titleCol span:lang(EN) { letter-spacing: 
 
 /* I_iBilan_Participations */
 
-.financialTable.I_iBilan_Participations table td.titleCol { 
-	    width: 58mm;
-	min-width: 58mm;
-	max-width: 58mm;
+._iBilanParticipnsNonConsolid table td.titleCol { 
+/*	    width: 40mm;
+	min-width: 40mm;
+	max-width: 40mm;*/
 }
 
 
-.financialTable.I_iBilan_Participations table tr td:not(.titleCol) { 
-	    width: 30mm;
-	min-width: 30mm;
-	max-width: 30mm;
+._iBilanParticipnsNonConsolid table tr td:not(.titleCol) { 
+	    width: 15mm;
+	min-width: 15mm;
+	max-width: 15mm;
 }
 
 table[data-sheet=I_iBilan_Participations] tr td:nth-of-type(2) {

@@ -968,7 +968,7 @@
             "r": "J5",
             "s": "28",
             "f": "ROUND((+C_Bilan!B3/1000),0)-H5",
-            "v": "0",
+            "v": "766920",
             "col": "J"
           },
           "style": {
@@ -979,7 +979,7 @@
           "id": "J",
           "type": "number",
           "formula": "ROUND((+C_Bilan!B3/1000),0)-H5",
-          "value": "0"
+          "value": "766920"
         },
         {
           "inputCell": {
@@ -2489,7 +2489,7 @@
             "r": "J12",
             "s": "116",
             "f": "ROUND(SUM(C_Bilan!B3:B8)/1000,0)-H12",
-            "v": "1",
+            "v": "766920",
             "col": "J"
           },
           "style": {
@@ -2500,7 +2500,7 @@
           "id": "J",
           "type": "number",
           "formula": "ROUND(SUM(C_Bilan!B3:B8)/1000,0)-H12",
-          "value": "1"
+          "value": "766920"
         },
         {
           "inputCell": {
@@ -2694,7 +2694,7 @@
             "r": "J13",
             "s": "28",
             "f": "ROUND(SUM(C_Bilan!C3:C8)/1000,0)-H13",
-            "v": "-1",
+            "v": "-40775",
             "col": "J"
           },
           "style": {
@@ -2705,7 +2705,7 @@
           "id": "J",
           "type": "number",
           "formula": "ROUND(SUM(C_Bilan!C3:C8)/1000,0)-H13",
-          "value": "-1"
+          "value": "-40775"
         },
         {
           "inputCell": {
@@ -4222,7 +4222,7 @@
     "creator": "Adrien Cater",
     "created": "2013-02-28T10:12:43Z",
     "lastModifiedBy": "A C",
-    "modified": "2017-01-16T16:29:50Z",
+    "modified": "2017-02-01T10:07:48Z",
     "lastPrinted": "2016-04-13T07:54:41Z"
   }
 }

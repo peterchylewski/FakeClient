@@ -1,0 +1,8 @@
+#ThemeImage01 .imageFrame img.imageMedia { content:url("../content/images/Image01_screen.jpg") }
+#ThemeImage02 .imageFrame img.imageMedia { content:url("../content/images/Image02_screen.jpg") }
+#ThemeImage03 .imageFrame img.imageMedia { content:url("../content/images/Image03_screen.jpg") }
+#ThemeImage04 .imageFrame img.imageMedia { content:url("../content/images/Image04_screen.jpg") }
+
+.ThemeImage02 .imageFrame img.imageMedia { content:url("../content/images/Image02_screen.jpg") }
+.ThemeImage03 .imageFrame img.imageMedia { content:url("../content/images/Image03_screen.jpg") }
+.ThemeImage04 .imageFrame img.imageMedia { content:url("../content/images/Image04_screen.jpg") }

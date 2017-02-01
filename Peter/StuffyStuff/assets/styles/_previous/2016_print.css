@@ -1,0 +1,8 @@
+#ThemeImage01 .imageFrame img.imageMedia { content:url("../content/images/Image01_print.tif") }
+#ThemeImage02 .imageFrame img.imageMedia { content:url("../content/images/Image02_print.tif") }
+#ThemeImage03 .imageFrame img.imageMedia { content:url("../content/images/Image03_print.tif") }
+#ThemeImage04 .imageFrame img.imageMedia { content:url("../content/images/Image04_print.tif") }
+
+.ThemeImage02 .imageFrame img.imageMedia { content:url("../content/images/Image02_print.tif") }
+.ThemeImage03 .imageFrame img.imageMedia { content:url("../content/images/Image03_print.tif") }
+.ThemeImage04 .imageFrame img.imageMedia { content:url("../content/images/Image04_print.tif") }

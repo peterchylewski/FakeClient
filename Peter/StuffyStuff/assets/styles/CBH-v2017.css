@@ -2,10 +2,10 @@
 /*	BASIC TYPOGRAPHY */
 
 body {
-	font-family: 'HelveticaNeueFont';
+	font-family: 'OpenSansFont';
 	font-weight: normal;
 	font-weight: 300;
-	font-size: 9pt;
+	font-size: 8pt;
 	letter-spacing: 0.05em;
 	color: prince-color(gris);
 }
@@ -32,77 +32,23 @@ div.text:after {
 	overflow:hidden;
 }
 div.text .translation p:first-of-type { margin: 0; }
-div.text { margin-bottom: 1em; }
+div.text {
+	margin-bottom: 1em;
+	/*text-break-inside: avoid;*/
+}
 
+table + div.text {
+	margin-top: 1em;
+}
 
-
-
+div.text {
+	column-count: 3;
+}
 
 
 /* Items where translations should behave as BLOCK elements - one on top of the other */
 
 h1 .translation						{ display: block; margin:0; float:none; }
-
-._TableMatieres h3 .translation		{ display: block; margin:0; float:none; }
-
-._CorporateInformation .translation,
-._CorporateInformation .translation p { display: block; margin:0!important; float:none; }
-
-._Annexe h2 .translation { display: block; margin:0; float:none; }
-._Annexe h3 .translation { display: block; margin:0; float:none; }
-._Annexe h4 .translation { display: block; margin:0; float:none; }
-._Annexe h5 .translation { display: block; margin:0; float:none; }
-._Annexe h6 .translation { display: block; margin:0; float:none; }
-
-/* Items where translations should behave as COLUMNS */
-
-._RapportActivite h3,
-._RapportActivite h4,
-._RapportReviseur h3,
-._RapportReviseur h4{ 
-	width: 100%;
-	columns: 2;
-	column-gap: 6mm;
-}
-._RapportActivite h3 .translation,
-._RapportActivite h4 .translation,
-._RapportReviseur h3 .translation,
-._RapportReviseur h4 .translation{
-	display: block;
-}
-
-._RapportActivite h3 .translation:lang(EN),
-._RapportActivite h4 .translation:lang(EN),
-._RapportReviseur h3 .translation:lang(EN),
-._RapportReviseur h4 .translation:lang(EN){
-	column-break-before: always;
-}
-
-
-._AnnexeText h2,
-._AnnexeText h3,
-._AnnexeText h4,
-._AnnexeText h5,
-._AnnexeText h6{ 
-	width: 100%;
-	columns: 2;
-	column-gap: 6mm;
-}
-._AnnexeText h2 .translation,
-._AnnexeText h3 .translation,
-._AnnexeText h4 .translation,
-._AnnexeText h5 .translation,
-._AnnexeText h6 .translation{
-	display: block;
-}
-._AnnexeText h2 .translation:lang(EN),
-._AnnexeText h3 .translation:lang(EN),
-._AnnexeText h4 .translation:lang(EN),
-._AnnexeText h5 .translation:lang(EN),
-._AnnexeText h6 .translation:lang(EN){
-	column-break-before: always;
-}
-
 
 
 
@@ -140,7 +86,7 @@ body {
 /*	GENERAL */
 
 h1 {
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 18pt;
 	line-height: 22pt;
 	margin-top: 0;
@@ -155,7 +101,7 @@ h1.small {
 }
 
 h2 {
-	font-weight: bold;
+	font-weight: 300;
 	letter-spacing: 0;
 	font-size: 10pt;
 	line-height: 12pt;
@@ -164,13 +110,13 @@ h2 {
 }
 
 h3 {
-	font-weight: bold;
+	font-weight: 300;
 	letter-spacing: 0;
 	font-size: inherit;
 }
 
 h4 {
-	font-weight: bold;
+	font-weight: 300;
 	letter-spacing: 0;
 	font-size: 8pt;
 }

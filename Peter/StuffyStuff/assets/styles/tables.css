@@ -135,6 +135,17 @@ table td {
 /*	-	-	-	-	-	-	-	-	-	*
 /* Table class styles */
 
+
+/* Empty cells: for now, we'll just "empty" them, by resetting the content to nothing. */
+td.empty{
+	content:"";
+}
+
+/* Empty rows, on the other hand, are simply deleted entirely. */
+tr.empty { display: none; }
+
+
+
 /* .plainText */
 td span.plainText {
 	display: inline;
@@ -311,8 +322,8 @@ tr[data-type="header"] td.titleH3 *{
 
 
 /* Total */
-table tr.Total,
-table tr[data-type="total"] { font-weight: bold; letter-spacing: 0; }
+table tr.total,
+table tr[data-type="total"] { font-weight: 500; letter-spacing: 0; }
 
 table tr.Total td,
 table tr[data-type="total"] td {

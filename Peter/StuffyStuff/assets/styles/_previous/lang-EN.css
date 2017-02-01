@@ -1,0 +1,9 @@
+
+/* Hide everything French */
+*:lang(FR),
+*[lang=FR],
+div[lang=FR],
+span[lang=FR],
+.FR {
+	display: none;
+}

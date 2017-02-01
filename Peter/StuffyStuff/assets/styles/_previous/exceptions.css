@@ -1,0 +1,18 @@
+/*
+	This is the “exceptions” CSS file, 
+	it contains things which are overrides, exceptions, 
+	and other sundry items which belong nowhere else. 
+	Do not think of this as a drawer labelled “miscellaneous”, 
+	but rather an acceptance and expression of the complexity 
+	and contradiction of the design process. 
+
+	Ok, it’s a junk drawer.
+*/
+
+
+
+
+/* we have a date stamp in the DOM if we need it, but we usually don’t. */
+/* <div id="dateStamp">2014-12-31_23-59</div> */
+#dateStamp {display: none;}
+

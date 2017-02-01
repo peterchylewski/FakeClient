@@ -1,0 +1,153 @@
+/* these styles are for elemnts which will change from year to year or are exceptional for a specific year. */
+
+
+
+
+/*	COLORS	-	-	-	-	-	-	-	-	-	-	*/
+
+/* this color changes every year… */
+
+
+
+/*
+@page Cover						{	background-color: prince-color(secondary, 0.6);	}
+@page ThemePages				{	background-color: prince-color(secondary, 0.2);	}
+@page ThemeIntro				{	background-color: prince-color(secondary, 0.2);	}
+@page ThemeOverview				{	background-color: prince-color(secondary, 0.2);	}
+@page RapportActiviteTitlePage	{	background-color: prince-color(secondary, 0.2);	}
+@page ConsolidatedIntro			{	background-color: prince-color(secondary, 0.2);	}
+@page IndividualIntro			{	background-color: prince-color(secondary, 0.2);	}
+@page Addresses					{	background-color: prince-color(secondary, 0.2);	}
+*/
+
+
+
+
+
+/*	IMAGES	-	-	-	-	-	-	-	-	-	-	*/
+
+
+img#graph-taux-DE { content:url("../content/images/graph-taux-DE.png") }
+img#graph-taux-US { content:url("../content/images/graph-taux-US.png") }
+img#graph-schiller-pe-US { content:url("../content/images/graph-schiller-pe-US.png") }
+img#graph-schiller-pe-EU { content:url("../content/images/graph-schiller-pe-EU.png") }
+
+
+/*@page Cover { prince-bleed: 10mm; marks: crop; } */
+
+
+/* Cover */
+#ThemeImage01 .imageFrame { height: 213mm; }
+#ThemeImage01 .imageMedia { height: 213mm; left: -45mm; top: 0mm; }
+
+
+/* */
+#ThemeImage02 .imageFrame,
+#ThemeImage03 .imageFrame,
+#ThemeImage04 .imageFrame { 
+	width: 178mm;
+}
+
+#ThemeImage02 .imageMedia,
+#ThemeImage03 .imageMedia,
+#ThemeImage04 .imageMedia { 
+	width: 174mm; left: -0mm; top: 0mm;
+	border: 2mm solid #FFF;
+}
+
+#ThemePages h2,
+#ThemeIntro h2,
+#ThemeOverview h2,
+#ThemeImage02 h2,
+#ThemeImage03 h2,
+#ThemeImage04 h2 {
+	border-bottom-color: #FFF !important;
+}
+
+#ThemeImage02 h2,
+#ThemeImage03 h2,
+#ThemeImage04 h2 {
+	padding-bottom: 0.5em;
+	margin-bottom:0;
+}
+
+
+#ThemeImage02 .imageFrame { }
+#ThemeImage02 .imageMedia { }
+
+#ThemeImage03 .imageFrame { }
+#ThemeImage03 .imageMedia { }
+
+#ThemeImage04 .imageFrame { }
+#ThemeImage04 .imageMedia { }
+
+
+
+/* ThemePages */
+
+#ThemePages h2 { border-bottom-color: #FFF; }
+
+/*#ThemeIntro .ThemeIntroPortrait { width: 35mm; padding-top: 2em; }
+#ThemeIntro .ThemeIntroPortrait .imageMedia { width: 35mm; }*/
+#ThemeIntro .ThemeIntroPortrait { display: none; }
+
+
+#ThemeIntro {}
+#ThemeIntro .ThemeIntroPortrait { float: left; }
+/*#ThemeIntro .text { margin-left: 40mm; }*/
+#ThemeIntro .text { margin-left: 0; }
+
+/*#ThemeIntro .text .translation { width: 66mm !important; }*/
+#ThemeIntro .text .translation { width: 86mm !important; }
+
+#ThemeIntro .text .CourbetPortrait { float: left; width: 35mm; margin-right: 4mm; margin-bottom: 4mm; }
+
+#ThemeIntro .MAHlogo { float: right; position: absolute; top: 0; right: 0; }
+
+#ThemeOverview h2 { margin-top:0; }
+	
+#ThemeOverview .ImageDescription { }
+#ThemeOverview .ImageDescription { clear: both; }
+#ThemeOverview .spacer { clear: both; width: 100%; height: 0.5em; }
+#ThemeOverview .ImageDescription:first-of-type { }
+
+#ThemeOverview .ImageDescription .imageFrame { float:left; }
+#ThemeOverview .ImageDescription .description { float:left; margin-left: 6mm; }
+
+#ThemeOverview .ImageDescription .imageFrame { width: 86mm; }
+#ThemeOverview .ImageDescription .description { width: 86mm; }
+
+#ThemeOverview .ImageDescription .imageFrame img { border: 1mm solid #FFF; }
+#ThemeOverview .ImageDescription img { padding: 0; margin: 0; }
+#ThemeOverview .ImageDescription .imageFrame { }
+
+
+#ThemeOverview .ImageDescription .description .PageRef { font-weight: 100; }
+#ThemeOverview .ImageDescription .description .techData p { font-size: 7pt; line-height: 9pt; padding: 0; margin:0; }
+#ThemeOverview .ImageDescription .description h2 { }
+
+
+#ThemeOverview .ImageDescription .imageMedia { width: 84mm; }
+
+#ThemeOverview .ThemeImage02 .imageFrame {}
+#ThemeOverview .ThemeImage02 .imageMedia {}
+
+#ThemeOverview .ThemeImage03 .imageFrame {}
+#ThemeOverview .ThemeImage03 .imageMedia {}
+
+#ThemeOverview .ThemeImage04 .imageFrame {}
+#ThemeOverview .ThemeImage04 .imageMedia {}
+
+
+
+
+/*	#C_Annexe h2:contains("Consolidation principles") { padding-top:1em; }	*/
+/*	#C_Annexe h2:contains("Accounting and valuation principles") { padding-top:1em; }	*/
+/*	#I_Annexe h2:contains("Accounting and valuation principles") { padding-top:1em; }	*/
+
+#I_Annexe h2:nth-of-type(2) {
+	page-break-before: avoid;
+}
+
+/*	LAYOUT	-	-	-	-	-	-	-	-	-	-	*/
+

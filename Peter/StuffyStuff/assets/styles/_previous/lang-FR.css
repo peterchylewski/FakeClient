@@ -1,0 +1,9 @@
+
+/* Hide everything English */
+*:lang(EN),
+*[lang=EN],
+div[lang=EN],
+span[lang=EN],
+.EN {
+	display: none;
+}

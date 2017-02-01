@@ -1,0 +1,87 @@
+/* Named pages (basically anything with a .section) */
+
+                          #Cover { page: Cover;								prince-page-group: start; }
+                  #TableMatieres { page: TableMatieres;						prince-page-group: start; }
+                     #ThemePages { page: ThemePages;						prince-page-group: start; }
+                     #ThemeIntro { page: ThemeIntro; }
+                  #ThemeOverview { page: ThemeOverview; }
+                        #Organes { page: Organes;							prince-page-group: start; }	/* listed in #TableMatieres */
+
+                #RapportActivite { page: RapportActivite;					prince-page-group: start; }	/* listed in #TableMatieres */
+       #RapportActiviteTitlePage { page: RapportActiviteTitlePage;			prince-page-group: start; }
+            #RapportActiviteText { page: RapportActiviteText;				prince-page-group: start; }
+          /*       #Introduction { page: Introduction;						prince-page-group: start; } */
+                   #ChiffresCles { page: ChiffresCles;						prince-page-group: start; }
+                 #RapportGestion { page: RapportGestion;					prince-page-group: start; }
+                   #Perspectives { page: Perspectives;						prince-page-group: start; }
+
+                   #Consolidated { page: Consolidated;						prince-page-group: start; }	/* listed in #TableMatieres */
+              #ConsolidatedIntro { page: ConsolidatedIntro; }
+              #C_RapportReviseur { page: C_RapportReviseur;					prince-page-group: start; }
+                        #C_Bilan { page: C_Bilan;							prince-page-group: start; }
+                    #C_HorsBilan { page: C_HorsBilan;						prince-page-group: start; }
+                     #C_Resultat { page: C_Resultat;						prince-page-group: start; }
+                       #C_Annexe { page: C_Annexe;							prince-page-group: start; }
+             #C_InformationBilan { page: C_InformationBilan;				prince-page-group: start; }
+  #C_CorrectifsValeursProvisions { page: C_CorrectifsValeursProvisions;		prince-page-group: start; }
+ #C_JustificationCapitauxPropres { page: C_JustificationCapitauxPropres;	prince-page-group: start; }
+      #C_StructureEcheancesActif { page: C_StructureEcheancesActif;			prince-page-group: start; }
+  #C_CreancesEngagementsSocietes { page: C_CreancesEngagementsSocietes;		prince-page-group: start; }
+  #C_ActifsPassifsSuisseEtranger { page: C_ActifsPassifsSuisseEtranger;		prince-page-group: start; }
+           #C_ActifsRepartisPays { page: C_ActifsRepartisPays;				prince-page-group: start; }
+                #C_BilanMonnaies { page: C_BilanMonnaies;					prince-page-group: start; }
+         #C_InformationHorsBilan { page: C_InformationHorsBilan;			prince-page-group: start; }
+          #C_InformationResultat { page: C_InformationResultat;				prince-page-group: start; }
+
+                     #Individual { page: Individual;						prince-page-group: start; }	/* listed in #TableMatieres */
+                #IndividualIntro { page: IndividualIntro; }
+              #I_RapportReviseur { page: I_RapportReviseur;					prince-page-group: start; }
+                        #I_Bilan { page: I_Bilan;							prince-page-group: start; }
+                    #I_HorsBilan { page: I_HorsBilan;						prince-page-group: start; }
+                     #I_Resultat { page: I_Resultat;						prince-page-group: start; }
+          #I_RepartitionBenefice { page: I_RepartitionBenefice;				prince-page-group: start; }
+                       #I_Annexe { page: I_Annexe;							prince-page-group: start; }
+             #I_InformationBilan { page: I_InformationBilan;				prince-page-group: start; }
+  #I_CorrectifsValeursProvisions { page: I_CorrectifsValeursProvisions;		prince-page-group: start; }
+                #I_CapitalSocial { page: I_CapitalSocial;					prince-page-group: start; }
+ #I_JustificationCapitauxPropres { page: I_JustificationCapitauxPropres;	prince-page-group: start; }
+      #I_StructureEcheancesActif { page: I_StructureEcheancesActif;			prince-page-group: start; }
+  #I_CreancesEngagementsSocietes { page: I_CreancesEngagementsSocietes;		prince-page-group: start; }
+  #I_ActifsPassifsSuisseEtranger { page: I_ActifsPassifsSuisseEtranger;		prince-page-group: start; }
+           #I_ActifsRepartisPays { page: I_ActifsRepartisPays;				prince-page-group: start; }
+                #I_BilanMonnaies { page: I_BilanMonnaies;					prince-page-group: start; }
+         #I_InformationHorsBilan { page: I_InformationHorsBilan;			prince-page-group: start; }
+          #I_InformationResultat { page: I_InformationResultat;				prince-page-group: start; }
+
+        #CorrespondantsBancaires { page: CorrespondantsBancaires;			prince-page-group: start; }	/* listed in #TableMatieres */
+                      #Addresses { page: Addresses;							prince-page-group: start; }
+
+                      .blankPage { page: blankPage; }
+
+
+/* Pagnination management */
+
+.section { 
+	/* always break before .sections */
+	page-break-before: always; 
+}
+.pageGroup { 
+	/* always break before .pageGroups, but never inside */
+	page-break-before: always; 
+	page-break-inside: avoid; 
+}
+.pageGroup .section { 
+	/* but never break before .sections in .pageGroups */
+	page-break-before: avoid; 
+	page-break-after: avoid; 
+	page-break-inside: avoid; 
+}
+
+p {
+	page-break-inside: avoid; 
+}
+
+
+nobr, .nobr { white-space: nowrap }
+
+

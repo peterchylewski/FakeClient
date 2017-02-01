@@ -1,5 +1,5 @@
 /* Fonts */
-@import url("../../../rsrc/fonts/HelveticaNeue.font.css");
+@import url("../../../../rsrc/fonts/OpenSans.font.css");
 
 
 /* CBH color tables */
@@ -26,9 +26,6 @@
 /* Individual Tables */
 @import url("tables-individual.css");
 
-
-/* 2016 Edition */
-@import url("CBH-edition-2016.css");
 
 
 

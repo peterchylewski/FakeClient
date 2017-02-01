@@ -511,7 +511,7 @@
             "r": "J3",
             "s": "28",
             "f": "ROUND((+C_Bilan!B3/1000),0)-G3",
-            "v": "0",
+            "v": "766920",
             "col": "J"
           },
           "style": {
@@ -522,7 +522,7 @@
           "id": "J",
           "type": "number",
           "formula": "ROUND((+C_Bilan!B3/1000),0)-G3",
-          "value": "0"
+          "value": "766920"
         },
         {
           "inputCell": {
@@ -2833,7 +2833,7 @@
             "r": "J14",
             "s": "28",
             "f": "ROUND((+C_Bilan!B14/1000),0)-G14",
-            "v": "0",
+            "v": "766920",
             "col": "J"
           },
           "style": {
@@ -2844,7 +2844,7 @@
           "id": "J",
           "type": "number",
           "formula": "ROUND((+C_Bilan!B14/1000),0)-G14",
-          "value": "0"
+          "value": "766920"
         },
         {
           "inputCell": {
@@ -3312,7 +3312,7 @@
     "creator": "Adrien Cater",
     "created": "2013-02-28T10:12:43Z",
     "lastModifiedBy": "A C",
-    "modified": "2017-01-16T16:29:50Z",
+    "modified": "2017-02-01T10:07:48Z",
     "lastPrinted": "2016-04-13T07:54:41Z"
   }
 }

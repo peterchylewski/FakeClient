@@ -1,0 +1,11 @@
+/*	OpenSansCond */
+	@font-face{ font-family: 'OpenSansCondFont';  font-weight: normal;  font-style: normal; src: url("OpenSansCond/OpenSans-CondLight.ttf")        } /* 400 */
+	@font-face{ font-family: 'OpenSansCondFont';  font-weight: normal;  font-style: italic; src: url("OpenSansCond/OpenSans-CondLightItalic.ttf")  } /* 400 */
+	@font-face{ font-family: 'OpenSansCondFont';  font-weight: bold;    font-style: normal; src: url("OpenSansCond/OpenSans-CondBold.ttf")         } /* 700 */
+
+
+/*
+OpenSans-CondLight.ttf
+OpenSans-CondLightItalic.ttf
+OpenSans-CondBold.ttf
+*/
